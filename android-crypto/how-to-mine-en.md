@@ -1,47 +1,49 @@
-# Como minerar criptomoeda com dispositivo Android
+# How to mine cryptocurrencies with android devices
 
-#### Read this article in english [here](https://github.com/ozzono/articles/blob/master/android-crypto/how-to-mine-en.md)
+#### Leia em português [aqui](https://github.com/ozzono/articles/blob/master/android-crypto/how-to-mine-pt.md)
 
-## Considerações iniciais
+## Initial Considerations
 
-Com tantos dispositivos android tornados obsoletos ao longo do tempo mas ainda funcionais, esse tutorial pretende validar o uso alternativo para mineração de criptomoedas.
+With so many aging android devices through out the time but still functional, this tutorial pretend to validade the alternative use for mining crypto currencies.
 
 Tanto Apple quanto Google restringiram a instalação de para mineração de criptomoedas. O argumento usado é que por demandar alto desempenho acabe por prejudicar a durabilidade da bateria do dispositivo.  
-Sendo assim, os usuários de Android ainda têm a opção de fazer a instalação de um app por fora da loja; o chamado _sideload_. Essa abordagem tem o enorme risco em razão do aplicativo escolhido ser difícil de auditar e garantir a ausência de software malicioso.
-Em razão do exposto, esse artigo propõe uma abordagem diferente, usando um emulador de linux disposnível na Play Store.  
-Nesse artigo será usado o **[UserLand](https://play.google.com/store/apps/details?id=tech.ula)** e um **Moto X 2013**.
+Apple and Google restricted the installation of currency mining applications. The argument is that due to high processing demand it would reduce the battery usage life.  
+Android users still can find and install app outside the Play Store with sideloading, but this approach has high risks since its hard to audit the app and guarantee the absence of malicious software.
+Thus, this article suggests a differente approach using a linux emulator available in the Play Store.
+This article uses **[UserLand](https://play.google.com/store/apps/details?id=tech.ula)** and **Moto X 2013**.
 
 ### Configurando o ambiente
 
-- Instale o [UserLand](https://play.google.com/store/apps/details?id=tech.ula) (disponível apenas para Android 5.0 ou superior).
-- Para esse tutorial a imagem escolhida foi do Debian, mas há liberdade para usar outra alternativa.
-- Após baixar e instalar a imagem é preciso inserir usuário e senhas da nova máquina linux.
+- Install [UserLand](https://play.google.com/store/apps/details?id=tech.ula) (available for Android 5.0 or higher).
+- For this tutorial it was chosen the debian image, but there are other alternatives.
+- After downloading and installing the image it is needed to insert user name and passwords.
     <div style="text-align:left">
         <img src="./img1.jpeg"  style="width:300px" />
     </div>
-- E escolher o tipo de conexão a ser utilizado: `ssh`
+- And chose the connection type: `ssh`
     <div style="text-align:left">
         <img src="./img2.jpeg" style="width:300px" />
     </div>
-- Após o download e instalação será pedida a senha inserida anteriormente
-- Configuração do Linux concluída.
+- Once installed insert the password chosen previously
+- Linux configuration finished
 
-Após a instalação inicial do linux, é preciso fazer algumas instalações antes da instalação do minerador.
+After the Linux install some packages must be installed before installing the miner itself.
 
 - `apt update`
-- Para facilitar a utilização e evitar a digitação de comandos direto no dispositivo, é possível acessar remotamente utilizando ssh reverso:
+- To ease the configuration it is possible to access the emulated linux via reverse ssh:
   - `apt install openssh-server -y`
   - `ssh -R \<port\>:localhost:22 \<user\>@\<host\>`
-    - a porta em questão deve estar ociosa na máquina a partir da qual se pretende acessar
-    - uma vez feita a conexão reversa com a máquina remota deve-se acessar a partir desta: `ssh <android-user>@localhost -p <port>`
-    - Esse tutorial utilizou a porta `40000` e chamou o usuário de `android`, portanto:
-      - no android: `ssh -R 40000:localhost:22 ur_user@ur_host_ip`
+    - the chosen port must be unused in the remote machine
+    - once set the reverse connection it is possible to access from the remote machine: `ssh <android-user>@localhost -p <port>`
+    - This tutorial used the port `40000` and name the usar as `android`:
+      - from the android device: `ssh -R 40000:localhost:22 ur_user@ur_host_ip`
       - `ssh android@localhost -p 40000`
 - `apt upgrade`
 - `apt install vim git build-essential cmake libhwloc-dev libssl-dev libuv1-dev`
 
-### Instalando o minerador
+### Installing the miner
 
+Due to the devices limitations, this tutorial suggests the mining of [Monero](https://www.getmonero.org/), since its still performant without GPU alongside the usage of a mining pool, so below follows the [XMRig](https://www.getmonero.org/resources/user-guides/mine-to-pool.html) installation steps.
 Em razão das limitações impostas pelo dispositivo proposto, esse tutorial sugere minerar [Monero](https://www.getmonero.org/) por se tratar de criptomoeda que minera bem sem GPU além de sugerir também a mineração junto a algum _pool_ de mineração, portanto, seguirá os passos para instalação do [XMRig](https://www.getmonero.org/resources/user-guides/mine-to-pool.html).
 
 - `git clone https://github.com/xmrig/xmrig.git`
@@ -53,16 +55,16 @@ Em razão das limitações impostas pelo dispositivo proposto, esse tutorial sug
 - `cmake -Bbuild`
 - `make -Cbuild -j$(nproc)` (pode demorar um pouco)
 - `cp src/config.json build/.`
-- edite o `config.json` com a url do _pool_ e do _wallet_address_
-    - escolha um _pool_ [aqui](https://miningpoolstats.stream/monero)
-    - crie endereço um [aqui](https://moneroaddress.org/) ou com garantia de segurança seguindo [esse tutorial](https://www.youtube.com/watch?v=wMY_Sx3o26k&list=WL&index=18&t=46s):
+- edit `config.json` with pools url and wallet address as user
+  - choose a _pool_ [here](https://miningpoolstats.stream/monero)
+  - create an wallet address [here](https://moneroaddress.org/) ou com or follow [this tutorial](https://www.youtube.com/watch?v=wMY_Sx3o26k&list=WL&index=18&t=46s) to create a safer wallet address:
 
     ```json
     {
     // [...]
     "pools": [
     {
-    "url": "pool.url.here:3333",//substitua 3333 pela porta utilizada pelo pool
+    "url": "pool.url.here:3333",//replace 3333 by the pools port
     "user": "wallet_address_here"
     }
     ],
@@ -71,7 +73,7 @@ Em razão das limitações impostas pelo dispositivo proposto, esse tutorial sug
     ```
 
 - `./build/xmrig`
-- _Et voilà_ novamente. Minerador de Monero rodando com pool usando o XMRig.
+- _Et voilà_. Running a monero mining with XMRig in an Android device.
 
     ```log
     (this execution used moneroocean pool)
@@ -109,26 +111,27 @@ Em razão das limitações impostas pelo dispositivo proposto, esse tutorial sug
     [2021-06-03 19:24:20.337]  miner    speed 10s/60s/15m 0.42 0.44 n/a H/s max 0.53 H/s
     ```
 
-### Conclusão
+### Conclusion
 
-### Utilizando um dispositivo tão limitado e com emulação do linux não é vantajoso minerar criptomoedas, mesmo que seja monero e utilizando um pool!
+### Using linux emulation with slow processing in an old android device to mine cryptos isn't profitable, even if it is pooling monero
 
-Atualmente é perfeitamente possível minerar monero ou qualquer outra criptomoeda utilizando um dispositivo android. A depender do dispositivo cabe discutir se é viável ou vantajoso.
+It is perfectly possible to mine monero or any other crypto using android. Depending of the device it may even be profitable but deffinetly not with old low processing ones.
 
-- Utilizando essa configuração com UserLand num Moto X 2013:
-  - Taxa de conversão: 0.42H/s
-  - Consumo: 4.335W
-    - Para esse experimento foi usado um carregador usb de 5.1V e 850mA
-    - P = V *I --> P = 5.1* 0.850
-  - No Brasil a energia elétrica custa caro. Durante a escrita desse artigo, em São Paulo e com conversão direta: **US$ 0.14 KWh**.
-  - Resultado: não vale a pena
+- With UserLand in a Moto X 2013:
+  - Hashrate: 0.42H/s
+  - Power Consumption: 4.335W
+    - For this experiment it was used a usv wall charge with de 5.1V e 850mA output
+    - P = V * I --> P = 5.1 * 0.850
+  - In Brazil electric energy is expensice. In São Paulo, when this article was written, with direct conversion: **US$ 0.14 KWh**.
+  - Result: it's not worth it!
     <div style="text-align:center">
         <img src="./img3.jpeg"/>
         <br/>
         <a href="https://www.cryptocompare.com/mining/calculator/xmr?HashingPower=0.42&HashingUnit=H%2Fs&PowerConsumption=4.335&CostPerkWh=0.14&MiningPoolFee=1">origem da imagem</a>
     </div>
 
-### Referências
+### References
+
 - [Xmrig on Raspberrypi OS 32-bit](https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=305983&sid=99d0bfda8541024dda55613f7e3a942f)
 - [How to mine on a pool with XMRig](https://www.getmonero.org/resources/user-guides/mine-to-pool.html)
 - [Mining Calculator](https://www.cryptocompare.com/mining/calculator/xmr?HashingPower=170&HashingUnit=H%2Fs&PowerConsumption=4.335&CostPerkWh=0.14&MiningPoolFee=1)
