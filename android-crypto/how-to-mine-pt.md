@@ -15,14 +15,12 @@ Nesse artigo será usado o **[UserLand](https://play.google.com/store/apps/detai
 
 - Instale o [UserLand](https://play.google.com/store/apps/details?id=tech.ula) (disponível apenas para Android 5.0 ou superior).
 - Para esse tutorial a imagem escolhida foi do Debian, mas há liberdade para usar outra imagem.
-- Após baixar e instalar a imagem, é preciso inserir usuário e senhas da nova máquina Linux.
-    <div style="text-align:left">
-        <img src="./img1.jpeg"  style="width:20%" />
-    </div>
-- E escolher o tipo de conexão a ser utilizado: `ssh`
-    <div style="text-align:left">
-        <img src="./img2.jpeg" style="width:20%" />
-    </div>
+- Após baixar e instalar a imagem, é preciso inserir usuário e senhas da nova máquina Linux.  
+  <img src="./img1.jpeg" width="20%"/>  
+<!-- ![img1](./img1.jpeg)   -->
+- E escolher o tipo de conexão a ser utilizado: `ssh`  
+  <img src="./img2.jpeg" width="20%"/>  
+<!-- ![img2](./img2.jpeg)   -->
 - Após o download e instalação, será pedida a senha inserida anteriormente
 - Configuração do Linux concluída.
 
@@ -55,8 +53,8 @@ Em razão das limitações impostas pelo dispositivo proposto, esse tutorial sug
 - `make -Cbuild -j$(nproc)` (pode demorar um pouco)
 - `cp src/config.json build/.`
 - edite o `config.json` com a url do _pool_ e do _wallet_address_
-    - escolha um _pool_ [aqui](https://miningpoolstats.stream/monero)
-    - crie endereço um [aqui](https://moneroaddress.org/) ou com garantia de segurança seguindo [esse tutorial](https://www.youtube.com/watch?v=wMY_Sx3o26k&list=WL&index=18&t=46s):
+  - escolha um _pool_ [aqui](https://miningpoolstats.stream/monero)
+  - crie endereço um [aqui](https://moneroaddress.org/) ou com garantia de segurança seguindo [esse tutorial](https://www.youtube.com/watch?v=wMY_Sx3o26k&list=WL&index=18&t=46s):
 
     ```json
     {
@@ -122,12 +120,10 @@ Atualmente é perfeitamente possível minerar monero ou qualquer outra criptomoe
     - Para esse experimento foi usado um carregador usb de 5.1V e 850mA
     - P = V *I --> P = 5.1* 0.850
   - No Brasil a energia elétrica custa caro. Durante a escrita desse artigo, em São Paulo e com conversão direta: **US$ 0.14 KWh**.
-  - Resultado: não vale a pena
-    <div style="text-align:center">
-        <img src="./img3.jpeg"/>
-        <br/>
-        <a href="https://www.cryptocompare.com/mining/calculator/xmr?HashingPower=0.42&HashingUnit=H%2Fs&PowerConsumption=4.335&CostPerkWh=0.14&MiningPoolFee=1">origem da imagem</a>
-    </div>
+  - Resultado: não vale a pena!    
+  <img src="./img3.jpeg"/>  
+<!-- ![img3](./img3.jpeg)     -->
+[image source](https://www.cryptocompare.com/mining/calculator/xmr?HashingPower=0.42&HashingUnit=H%2Fs&PowerConsumption=4.335&CostPerkWh=0.14&MiningPoolFee=1)
 
 ### Referências
 - [Xmrig on Raspberrypi OS 32-bit](https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=305983&sid=99d0bfda8541024dda55613f7e3a942f)
