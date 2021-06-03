@@ -17,11 +17,11 @@ Nesse artigo será usado o **[UserLand](https://play.google.com/store/apps/detai
 - Para esse tutorial a imagem escolhida foi do Debian, mas há liberdade para usar outra imagem.
 - Após baixar e instalar a imagem, é preciso inserir usuário e senhas da nova máquina Linux.
     <div style="text-align:left">
-        <img src="./img1.jpeg"  style="width:300px" />
+        <img src="./img1.jpeg"  style="width:20%" />
     </div>
 - E escolher o tipo de conexão a ser utilizado: `ssh`
     <div style="text-align:left">
-        <img src="./img2.jpeg" style="width:300px" />
+        <img src="./img2.jpeg" style="width:20%" />
     </div>
 - Após o download e instalação, será pedida a senha inserida anteriormente
 - Configuração do Linux concluída.
@@ -47,6 +47,7 @@ Em razão das limitações impostas pelo dispositivo proposto, esse tutorial sug
 - `git clone https://github.com/xmrig/xmrig.git`
   - se esse passo falhar:
     - `apt install wget unzip`
+    - `wget https://github.com/xmrig/xmrig/archive/refs/heads/master.zip`
     - `unzip xmrig-master`
     - `mv xmrig-master xmrig`
 - `cd xmrig`
