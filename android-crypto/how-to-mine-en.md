@@ -120,6 +120,7 @@ It is perfectly possible to mine monero or any other crypto using android. Depen
   - Electric energy is expensive in Brazil. In São Paulo, when this article was written, with direct conversion: **US$ 0.14 KWh**.
   - Result: it's not worth it!  
   <img src="./img3.jpeg"/>  
+  
   [image source](https://www.cryptocompare.com/mining/calculator/xmr?HashingPower=0.42&HashingUnit=H%2Fs&PowerConsumption=4.335&CostPerkWh=0.14&MiningPoolFee=1)
 
 ### References

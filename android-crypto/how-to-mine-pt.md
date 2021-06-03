@@ -121,8 +121,8 @@ Atualmente é perfeitamente possível minerar monero ou qualquer outra criptomoe
     - P = V *I --> P = 5.1* 0.850
   - No Brasil a energia elétrica custa caro. Durante a escrita desse artigo, em São Paulo e com conversão direta: **US$ 0.14 KWh**.
   - Resultado: não vale a pena!    
-  <img src="./img3.jpeg"/>  
-<!-- ![img3](./img3.jpeg)     -->
+  <img src="./img3.jpeg"/>
+    
 [image source](https://www.cryptocompare.com/mining/calculator/xmr?HashingPower=0.42&HashingUnit=H%2Fs&PowerConsumption=4.335&CostPerkWh=0.14&MiningPoolFee=1)
 
 ### Referências
