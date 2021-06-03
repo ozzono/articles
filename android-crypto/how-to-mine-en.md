@@ -15,14 +15,10 @@ This article uses **[UserLand](https://play.google.com/store/apps/details?id=tec
 
 - Install [UserLand](https://play.google.com/store/apps/details?id=tech.ula) (available for Android 5.0 or higher).
 - For this tutorial it was chosen the debian image, but there are alternatives images.
-- After downloading and installing the image it is needed to insert user name and passwords.
-    <div style="text-align:left">
-        <img src="./img1.jpeg"  style="width:20%" />
-    </div>
-- And chose the connection type: `ssh`
-    <div style="text-align:left">
-        <img src="./img2.jpeg" style="width:20%" />
-    </div>
+- After downloading and installing the image it is needed to insert user name and passwords.  
+  <img src="./img1.jpeg" width="20%"/>
+- And chose the connection type: `ssh`  
+  <img src="./img2.jpeg" width="20%"/>
 - Once installed insert the password chosen previously
 - Linux configuration finished
 
@@ -122,12 +118,9 @@ It is perfectly possible to mine monero or any other crypto using android. Depen
     - For this experiment it was used a usv wall charge with de 5.1V e 850mA output
     - P = V * I --> P = 5.1 * 0.850
   - Electric energy is expensive in Brazil. In São Paulo, when this article was written, with direct conversion: **US$ 0.14 KWh**.
-  - Result: it's not worth it!
-    <div style="text-align:center">
-        <img src="./img3.jpeg"/>
-        <br/>
-        <a href="https://www.cryptocompare.com/mining/calculator/xmr?HashingPower=0.42&HashingUnit=H%2Fs&PowerConsumption=4.335&CostPerkWh=0.14&MiningPoolFee=1">origem da imagem</a>
-    </div>
+  - Result: it's not worth it!  
+  <img src="./img3.jpeg"/>  
+  [image source](https://www.cryptocompare.com/mining/calculator/xmr?HashingPower=0.42&HashingUnit=H%2Fs&PowerConsumption=4.335&CostPerkWh=0.14&MiningPoolFee=1)
 
 ### References
 
