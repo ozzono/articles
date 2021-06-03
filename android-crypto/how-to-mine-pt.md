@@ -6,16 +6,16 @@
 
 Com tantos dispositivos android tornados obsoletos ao longo do tempo mas ainda funcionais, esse tutorial pretende validar o uso alternativo para mineração de criptomoedas.
 
-Tanto Apple quanto Google restringiram a instalação de para mineração de criptomoedas. O argumento usado é que por demandar alto desempenho acabe por prejudicar a durabilidade da bateria do dispositivo.  
-Sendo assim, os usuários de Android ainda têm a opção de fazer a instalação de um app por fora da loja; o chamado _sideload_. Essa abordagem tem o enorme risco em razão do aplicativo escolhido ser difícil de auditar e garantir a ausência de software malicioso.
-Em razão do exposto, esse artigo propõe uma abordagem diferente, usando um emulador de linux disposnível na Play Store.  
+Tanto Apple quanto Google restringiram a instalação de aplicativos para mineração de criptomoedas. O argumento usado é que por demandar alto desempenho acabe por prejudicar a durabilidade da bateria do dispositivo.  
+Sendo assim, os usuários de Android ainda têm a opção de fazer a instalação de um app por fora da loja; o chamado _sideload_. Essa abordagem tem enorme risco em razão do aplicativo escolhido ser difícil de auditar e de garantir a ausência de software malicioso.
+Em razão do exposto, esse artigo propõe uma abordagem diferente, usando um emulador de Linux disponível na Play Store.  
 Nesse artigo será usado o **[UserLand](https://play.google.com/store/apps/details?id=tech.ula)** e um **Moto X 2013**.
 
 ### Configurando o ambiente
 
 - Instale o [UserLand](https://play.google.com/store/apps/details?id=tech.ula) (disponível apenas para Android 5.0 ou superior).
-- Para esse tutorial a imagem escolhida foi do Debian, mas há liberdade para usar outra alternativa.
-- Após baixar e instalar a imagem é preciso inserir usuário e senhas da nova máquina linux.
+- Para esse tutorial a imagem escolhida foi do Debian, mas há liberdade para usar outra imagem.
+- Após baixar e instalar a imagem, é preciso inserir usuário e senhas da nova máquina Linux.
     <div style="text-align:left">
         <img src="./img1.jpeg"  style="width:300px" />
     </div>
@@ -23,17 +23,17 @@ Nesse artigo será usado o **[UserLand](https://play.google.com/store/apps/detai
     <div style="text-align:left">
         <img src="./img2.jpeg" style="width:300px" />
     </div>
-- Após o download e instalação será pedida a senha inserida anteriormente
+- Após o download e instalação, será pedida a senha inserida anteriormente
 - Configuração do Linux concluída.
 
-Após a instalação inicial do linux, é preciso fazer algumas instalações antes da instalação do minerador.
+Após a instalação inicial, é preciso instalar alguns pacotes antes da instalação do minerador.
 
 - `apt update`
 - Para facilitar a utilização e evitar a digitação de comandos direto no dispositivo, é possível acessar remotamente utilizando ssh reverso:
   - `apt install openssh-server -y`
   - `ssh -R \<port\>:localhost:22 \<user\>@\<host\>`
     - a porta em questão deve estar ociosa na máquina a partir da qual se pretende acessar
-    - uma vez feita a conexão reversa com a máquina remota deve-se acessar a partir desta: `ssh <android-user>@localhost -p <port>`
+    - uma vez feita a conexão reversa com a máquina remota, deve-se acessar a partir desta: `ssh <android-user>@localhost -p <port>`
     - Esse tutorial utilizou a porta `40000` e chamou o usuário de `android`, portanto:
       - no android: `ssh -R 40000:localhost:22 ur_user@ur_host_ip`
       - `ssh android@localhost -p 40000`
@@ -42,7 +42,7 @@ Após a instalação inicial do linux, é preciso fazer algumas instalações an
 
 ### Instalando o minerador
 
-Em razão das limitações impostas pelo dispositivo proposto, esse tutorial sugere minerar [Monero](https://www.getmonero.org/) por se tratar de criptomoeda que minera bem sem GPU além de sugerir também a mineração junto a algum _pool_ de mineração, portanto, seguirá os passos para instalação do [XMRig](https://www.getmonero.org/resources/user-guides/mine-to-pool.html).
+Em razão das limitações impostas pelo dispositivo proposto, esse tutorial sugere minerar [Monero](https://www.getmonero.org/), por se tratar de criptomoeda que desempenha bem sem GPU, além de sugerir também a mineração junto a algum _pool_, portanto seguirá os passos para instalação do [XMRig](https://www.getmonero.org/resources/user-guides/mine-to-pool.html).
 
 - `git clone https://github.com/xmrig/xmrig.git`
   - se esse passo falhar:
@@ -62,8 +62,8 @@ Em razão das limitações impostas pelo dispositivo proposto, esse tutorial sug
     // [...]
     "pools": [
     {
-    "url": "pool.url.here:3333",//substitua 3333 pela porta utilizada pelo pool
-    "user": "wallet_address_here"
+        "url": "pool.url.here:3333",//substitua 3333 pela porta utilizada pelo pool
+        "user": "wallet_address_here"
     }
     ],
     // [...]
@@ -71,7 +71,7 @@ Em razão das limitações impostas pelo dispositivo proposto, esse tutorial sug
     ```
 
 - `./build/xmrig`
-- _Et voilà_ novamente. Minerador de Monero rodando com pool usando o XMRig.
+- _Et voilà_. Minerador de Monero rodando com pool usando o XMRig.
 
     ```log
     (this execution used moneroocean pool)
@@ -111,9 +111,9 @@ Em razão das limitações impostas pelo dispositivo proposto, esse tutorial sug
 
 ### Conclusão
 
-### Utilizando um dispositivo tão limitado e com emulação do linux não é vantajoso minerar criptomoedas, mesmo que seja monero e utilizando um pool!
+### Utilizando um dispositivo tão limitado e com emulação do Linux não é vantajoso minerar criptomoedas, mesmo que seja monero e utilizando um pool!
 
-Atualmente é perfeitamente possível minerar monero ou qualquer outra criptomoeda utilizando um dispositivo android. A depender do dispositivo cabe discutir se é viável ou vantajoso.
+Atualmente é perfeitamente possível minerar monero ou qualquer outra criptomoeda utilizando um dispositivo android. A depender do aparelho cabe discutir se é viável ou vantajoso.
 
 - Utilizando essa configuração com UserLand num Moto X 2013:
   - Taxa de conversão: 0.42H/s
@@ -132,3 +132,5 @@ Atualmente é perfeitamente possível minerar monero ou qualquer outra criptomoe
 - [Xmrig on Raspberrypi OS 32-bit](https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=305983&sid=99d0bfda8541024dda55613f7e3a942f)
 - [How to mine on a pool with XMRig](https://www.getmonero.org/resources/user-guides/mine-to-pool.html)
 - [Mining Calculator](https://www.cryptocompare.com/mining/calculator/xmr?HashingPower=170&HashingUnit=H%2Fs&PowerConsumption=4.335&CostPerkWh=0.14&MiningPoolFee=1)
+
+> Revisado por Carolina Brandão
