@@ -50,6 +50,7 @@ Due to the devices limitations, this tutorial suggests the mining of [Monero](ht
 - `cmake -Bbuild`
 - `make -Cbuild -j$(nproc)` (may take a while)
 - `cp src/config.json build/.`
+- `cd build`
 - edit `config.json` with pools url and wallet' address as in user field
   - choose a _pool_ [here](https://miningpoolstats.stream/monero)
   - create a wallet address [here](https://moneroaddress.org/) or follow [this tutorial](https://www.youtube.com/watch?v=wMY_Sx3o26k&list=WL&index=18&t=46s) to create an even safer wallet address:
@@ -115,13 +116,27 @@ It is perfectly possible to mine monero or any other crypto using android. Depen
 - With UserLand in a Moto X 2013:
   - Hashrate: 0.42H/s
   - Power Consumption: 4.335W
-    - For this experiment it was used a usb wall charger with de 5.1V e 850mA output
-    - P = V * I --> P = 5.1 * 0.850
+    - For this experiment it was used a usb wall charger with de 5.1V and 850mA output (considering the device uses external energy source while mining)
+    - P = V \* I --> P = 5.1 \* 0.850
   - Electric energy is expensive in Brazil. In São Paulo, when this article was written, with direct conversion: **US$ 0.14 KWh**.
   - Result: it's not worth it!  
-  <img src="./img3.jpeg"/>  
+  <img src="./img3.png"/>  
 
   [image source](https://www.cryptocompare.com/mining/calculator/xmr?HashingPower=0.42&HashingUnit=H%2Fs&PowerConsumption=4.335&CostPerkWh=0.14&MiningPoolFee=1)
+  
+### Curiosity
+
+This tutorial was also performed in a Oneplus 6T (oneplus 6010) and returned a very curious and distinct result:
+> Oneplus' OxygenOS also has an agressive background app killing behaviour that must be taken into account. The miner was kept alive for near 10 minutes.
+
+- Hashrate: 597H/s
+- Power Consumption: 20.4W
+  - For this experiment it was used a usb wall charger with 5.1V and 4A output (considering the device uses external energy source while mining)
+  - P = V \* I --> P = 5.1 \* 4
+
+But its still not worth it  
+  <img src="./img4.png"/>  
+  [image source](https://www.cryptocompare.com/mining/calculator/xmr?HashingPower=597&HashingUnit=H%2Fs&PowerConsumption=20&CostPerkWh=1&MiningPoolFee=1)
 
 ### References
 

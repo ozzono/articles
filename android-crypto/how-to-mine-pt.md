@@ -52,6 +52,7 @@ Em razão das limitações impostas pelo dispositivo proposto, esse tutorial sug
 - `cmake -Bbuild`
 - `make -Cbuild -j$(nproc)` (pode demorar um pouco)
 - `cp src/config.json build/.`
+- `cd build`
 - edite o `config.json` com a url do _pool_ e do _wallet_address_
   - escolha um _pool_ [aqui](https://miningpoolstats.stream/monero)
   - crie endereço um [aqui](https://moneroaddress.org/) ou com garantia de segurança seguindo [esse tutorial](https://www.youtube.com/watch?v=wMY_Sx3o26k&list=WL&index=18&t=46s):
@@ -110,22 +111,38 @@ Em razão das limitações impostas pelo dispositivo proposto, esse tutorial sug
 
 ### Conclusão
 
-### Utilizando um dispositivo tão limitado e com emulação do Linux não é vantajoso minerar criptomoedas, mesmo que seja monero e utilizando um pool!
+### Utilizando um dispositivo tão limitado e com emulação do Linux não é vantajoso minerar criptomoedas, mesmo que seja monero e utilizando um pool
 
 Atualmente é perfeitamente possível minerar monero ou qualquer outra criptomoeda utilizando um dispositivo android. A depender do aparelho cabe discutir se é viável ou vantajoso.
 
 - Utilizando essa configuração com UserLand num Moto X 2013:
   - Taxa de conversão: 0.42H/s
   - Consumo: 4.335W
-    - Para esse experimento foi usado um carregador usb de 5.1V e 850mA
-    - P = V *I --> P = 5.1* 0.850
+    - Para esse experimento foi usado um carregador usb de 5.1V e 850mA (considerando que o dispositivo utilize alimentação externa enquanto minera)
+    - P = V \* I --> P = 5.1 \* 0.850
   - No Brasil a energia elétrica custa caro. Durante a escrita desse artigo, em São Paulo e com conversão direta: **US$ 0.14 KWh**.
   - Resultado: não vale a pena!  
-  <img src="./img3.jpeg"/>
+  <img src="./img3.png"/>
 
-[image source](https://www.cryptocompare.com/mining/calculator/xmr?HashingPower=0.42&HashingUnit=H%2Fs&PowerConsumption=4.335&CostPerkWh=0.14&MiningPoolFee=1)
+[fonte da imagem](https://www.cryptocompare.com/mining/calculator/xmr?HashingPower=0.42&HashingUnit=H%2Fs&PowerConsumption=4.335&CostPerkWh=0.14&MiningPoolFee=1)
+
+### Curiosidade
+
+Também executei o mesmo processo usando um Oneplus 6T (oneplus 6010) e tive resultados curiosamente distintos:
+> O OxygenOS tem um comportamento agressivo para com aplicativos em plano de fundo. A mineração durou quase 10 minutos.
+
+- Taxa de conversão: 597H/s
+- Consumo: 20.4W
+    - Para esse experimento foi usado um carregador usb de 5.1V e 4A (considerando que o dispositivo utilize alimentação externa enquanto minera)
+  - P = V \* I --> P = 5.1 \* 4
+
+Mais ainda não dá retorno:  
+  <img src="./img4.png"/>  
+  [fonte da imagem](https://www.cryptocompare.com/mining/calculator/xmr?HashingPower=597&HashingUnit=H%2Fs&PowerConsumption=20&CostPerkWh=1&MiningPoolFee=1)
+
 
 ### Referências
+
 - [Xmrig on Raspberrypi OS 32-bit](https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=305983&sid=99d0bfda8541024dda55613f7e3a942f)
 - [How to mine on a pool with XMRig](https://www.getmonero.org/resources/user-guides/mine-to-pool.html)
 - [Mining Calculator](https://www.cryptocompare.com/mining/calculator/xmr?HashingPower=170&HashingUnit=H%2Fs&PowerConsumption=4.335&CostPerkWh=0.14&MiningPoolFee=1)
