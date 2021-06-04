@@ -48,7 +48,7 @@ Due to the devices limitations, this tutorial suggests the mining of [Monero](ht
     - `mv xmrig-master xmrig`
 - `cd xmrig`
 - `cmake -Bbuild`
-- `make -Cbuild -j$(nproc)` (pode demorar um pouco)
+- `make -Cbuild -j$(nproc)` (may take a while)
 - `cp src/config.json build/.`
 - edit `config.json` with pools url and wallet' address as in user field
   - choose a _pool_ [here](https://miningpoolstats.stream/monero)
