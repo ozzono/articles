@@ -150,6 +150,8 @@ Apesar do sucesso em minerar utilizando um dispositivo mais recente e com maior 
 
 É possível minerar utilizando dispositivos android e, a depender do aparelho escolhido e do carregador, é possível ter retorno positivo. Porém é preciso considerar a pressão na durabilidade dos componentes do dispositivo, podendo ter a vida útil reduzida, seja em razão da bateria ou de outro componente.
 
+Também existe _web mining_ realizada diretamente a partir do navegador bem como existem mineradores mais otimizados que não foram abordados nesse artigo, seja em razão de se tratarem de alternativas com baixo retorno ou por envolverem limitações quanto a auditoria dos _scripts_ executados para instalar e iniciar a mineração.
+
 ### Referências
 
 - [Xmrig on Raspberrypi OS 32-bit](https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=305983&sid=99d0bfda8541024dda55613f7e3a942f)
