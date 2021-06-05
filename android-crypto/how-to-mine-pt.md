@@ -4,7 +4,7 @@
 
 ## Considerações iniciais
 
-Com tantos dispositivos android tornados obsoletos ao longo do tempo mas ainda funcionais, esse tutorial pretende validar o uso alternativo para mineração de criptomoedas.
+Com tantos dispositivos android tornados obsoletos ao longo do tempo mas ainda funcionais, esse tutorial pretende validar o uso alternativo para mineração de criptomoedas. Além disso, também como prova de conceito, esse artigo aborda os resultados da mineração em dispositivos menos limitados.
 
 Tanto Apple quanto Google restringiram a instalação de aplicativos para mineração de criptomoedas. O argumento usado é que por demandar alto desempenho acabe por prejudicar a durabilidade da bateria do dispositivo.  
 Sendo assim, os usuários de Android ainda têm a opção de fazer a instalação de um app por fora da loja; o chamado _sideload_. Essa abordagem tem enorme risco em razão do aplicativo escolhido ser difícil de auditar e de garantir a ausência de software malicioso.
@@ -113,7 +113,7 @@ Em razão das limitações impostas pelo dispositivo proposto, esse tutorial sug
 
 ### Utilizando um dispositivo tão limitado e com emulação do Linux não é vantajoso minerar criptomoedas, mesmo que seja monero e utilizando um pool
 
-Atualmente é perfeitamente possível minerar monero ou qualquer outra criptomoeda utilizando um dispositivo android. A depender do aparelho cabe discutir se é viável ou vantajoso.
+Atualmente é perfeitamente possível minerar monero ou qualquer outra criptomoeda utilizando um dispositivo android. A depender do aparelho cabe discutir se é vantajoso.
 
 - Utilizando essa configuração com UserLand num Moto X 2013:
   - Taxa de conversão: 0.42H/s
@@ -126,20 +126,29 @@ Atualmente é perfeitamente possível minerar monero ou qualquer outra criptomoe
 
 [fonte da imagem](https://www.cryptocompare.com/mining/calculator/xmr?HashingPower=0.42&HashingUnit=H%2Fs&PowerConsumption=4.335&CostPerkWh=0.14&MiningPoolFee=1)
 
-### Curiosidade
+### Com um dispositivo menos limitado
 
-Também executei o mesmo processo usando um Oneplus 6T (oneplus 6010) e tive resultados curiosamente distintos:
-> O OxygenOS tem um comportamento agressivo para com aplicativos em plano de fundo. A mineração durou quase 10 minutos.
+Com um Oneplus 6T (oneplus 6010) os resultados são bem distintos:
 
-- Taxa de conversão: 597H/s
-- Consumo: 20.4W
-    - Para esse experimento foi usado um carregador usb de 5.1V e 4A (considerando que o dispositivo utilize alimentação externa enquanto minera)
-  - P = V \* I --> P = 5.1 \* 4
+- Taxa de conversão: 500H/s
+- Consumo: 10W
+  - Para esse experimento foi usado um carregador usb de 5.1V e 2A (considerando que o dispositivo utilize alimentação externa enquanto minera)
+  - P = V \* I --> P = 5.1 \* 2
 
-Mais ainda não dá retorno:  
+Com essas configurações e com esse dispositivo já é possível tem retorno financeiro com mineração:  
   <img src="./img4.png"/>  
-  [fonte da imagem](https://www.cryptocompare.com/mining/calculator/xmr?HashingPower=597&HashingUnit=H%2Fs&PowerConsumption=20&CostPerkWh=1&MiningPoolFee=1)
+  [fonte da imagem](https://www.cryptocompare.com/mining/calculator/xmr?HashingPower=500&HashingUnit=H%2Fs&PowerConsumption=10&CostPerkWh=0.14&MiningPoolFee=1)
 
+Apesar do sucesso em minerar utilizando um dispositivo mais recente e com maior capacidade de processamento, é preciso considerar as consequências. Enquanto minerava com o Oneplus 6T, o dispositivo aqueceu consideravelmente, o que coloca pressão na durabilidade da bateria e do dispositivo em si.
+<div>
+  À esquerda enquanto o dispositivo minerava; à direita enquanto estava ocioso.<br/>
+  <img src="./img5.jpg" width="20%"/>  
+  <img src="./img6.jpg" width="20%"/>  
+</div>
+
+### Conclusão
+
+É possível minerar utilizando dispositivos android e, a depender do aparelho escolhido e do carregador, é possível ter retorno positivo. Porém é preciso considerar a pressão na durabilidade dos componentes do dispositivo, podendo ter a vida útil reduzida, seja em razão da bateria ou de outro componente.
 
 ### Referências
 
