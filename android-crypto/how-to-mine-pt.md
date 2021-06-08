@@ -6,7 +6,7 @@
 
 Com tantos dispositivos android tornados obsoletos ao longo do tempo mas ainda funcionais, esse tutorial pretende validar o uso alternativo para mineração de criptomoedas. Além disso, também como prova de conceito, esse artigo aborda os resultados da mineração em dispositivos menos limitados.
 
-Tanto Apple quanto Google restringiram a instalação de aplicativos para mineração de criptomoedas. O argumento usado é que por demandar alto desempenho acabe por prejudicar a durabilidade da bateria do dispositivo.  
+Tanto Apple quanto Google restringiram a instalação de aplicativos para mineração de criptomoedas. O argumento usado é que, por demandar alto desempenho, acabe por prejudicar a durabilidade da bateria do dispositivo.  
 Sendo assim, os usuários de Android ainda têm a opção de fazer a instalação de um app por fora da loja; o chamado _sideload_. Essa abordagem tem enorme risco em razão do aplicativo escolhido ser difícil de auditar e de garantir a ausência de software malicioso.
 Em razão do exposto, esse artigo propõe uma abordagem diferente, usando um emulador de Linux disponível na Play Store.  
 Nesse artigo será usado o **[UserLand](https://play.google.com/store/apps/details?id=tech.ula)** e um **Moto X 2013**.
@@ -16,11 +16,11 @@ Nesse artigo será usado o **[UserLand](https://play.google.com/store/apps/detai
 - Instale o [UserLand](https://play.google.com/store/apps/details?id=tech.ula) (disponível apenas para Android 5.0 ou superior).
 - Para esse tutorial a imagem escolhida foi do Debian, mas há liberdade para usar outra imagem.
 - Após baixar e instalar a imagem, é preciso inserir usuário e senhas da nova máquina Linux.  
-  <img src="./img1.jpeg" width="20%"/>  
-<!-- ![img1](./img1.jpeg)   -->
+  <img src="./img1.jpg"/>
+   <!-- width="20%"/>   -->
 - E escolher o tipo de conexão a ser utilizado: `ssh`  
-  <img src="./img2.jpeg" width="20%"/>  
-<!-- ![img2](./img2.jpeg)   -->
+  <img src="./img2.jpg"/>
+   <!-- width="20%"/>   -->
 - Após o download e instalação, será pedida a senha inserida anteriormente
 - Configuração do Linux concluída.
 
@@ -71,7 +71,7 @@ Em razão das limitações impostas pelo dispositivo proposto, esse tutorial sug
     ```
 
 - `./build/xmrig`
-- _Et voilà_. Minerador de Monero rodando com pool usando o XMRig.
+- _Et voilà_. Minerador de Monero rodando em dispositivo Android com pool usando o XMRig.
 
     ```log
     (this execution used moneroocean pool)
@@ -150,7 +150,7 @@ Apesar do sucesso em minerar utilizando um dispositivo mais recente e com maior 
 
 É possível minerar utilizando dispositivos android e, a depender do aparelho escolhido e do carregador, é possível ter retorno positivo. Porém é preciso considerar a pressão na durabilidade dos componentes do dispositivo, podendo ter a vida útil reduzida, seja em razão da bateria ou de outro componente.
 
-Também existe _web mining_ realizada diretamente a partir do navegador bem como existem mineradores mais otimizados que não foram abordados nesse artigo, seja em razão de se tratarem de alternativas com baixo retorno ou por envolverem limitações quanto a auditoria dos _scripts_ executados para instalar e iniciar a mineração.
+Também existe _web mining_ (como nesse [link](https://moneroocean.stream/)) realizada diretamente a partir do navegador, bem como existem mineradores mais otimizados (como [esse](https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh)) que não foram abordados nesse artigo, seja em razão de se tratarem de alternativas com baixo retorno ou por desconhecimento quanto à confiabilidade e auditoria dos _scripts_ executados para instalar e iniciar a mineração.
 
 ### Referências
 
