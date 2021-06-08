@@ -109,8 +109,6 @@ Em razão das limitações impostas pelo dispositivo proposto, esse tutorial sug
     [2021-06-03 19:24:20.337]  miner    speed 10s/60s/15m 0.42 0.44 n/a H/s max 0.53 H/s
     ```
 
-### Conclusão
-
 ### Utilizando um dispositivo tão limitado e com emulação do Linux não é vantajoso minerar criptomoedas, mesmo que seja monero e utilizando um pool
 
 Atualmente é perfeitamente possível minerar monero ou qualquer outra criptomoeda utilizando um dispositivo android. A depender do aparelho cabe discutir se é vantajoso.
@@ -135,7 +133,7 @@ Com um Oneplus 6T (oneplus 6010) os resultados são bem distintos:
   - Para esse experimento foi usado um carregador usb de 5.1V e 2A (considerando que o dispositivo utilize alimentação externa enquanto minera)
   - P = V \* I --> P = 5.1 \* 2
 
-Com essas configurações e com esse dispositivo já é possível tem retorno financeiro com mineração:  
+Com essas configurações e com esse dispositivo já é possível ter retorno financeiro com mineração:  
   <img src="./img4.png"/>  
   [fonte da imagem](https://www.cryptocompare.com/mining/calculator/xmr?HashingPower=500&HashingUnit=H%2Fs&PowerConsumption=10&CostPerkWh=0.14&MiningPoolFee=1)
 
