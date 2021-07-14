@@ -4,12 +4,12 @@
 
 ## Initial Considerations
 
-With so many aging android devices through out the time but still functional, this tutorial pretend to validade the alternative use for mining crypto currencies. It also aims to proof the concept of mining with android devices in general.
+There are many android devices aging as time goes, and they are still functional. This is a tutorial to validade the alternative use of those device for mining cryptocurrencies. It is also intented to be a proof the concept for mining with android devices in general.
 
-Apple and Google restricted the installation of crypto mining applications. The argument is that due to high processing demand it would reduce the battery usage life.  
-Android users still can find and install apps outside the Play Store with sideloading, but this approach has high risks since its hard to audit the app and guarantee the absence of malicious software.
-Thus, this article suggests a differente approach using a Linux emulator available in the Play Store.
-This article uses **[UserLand](https://play.google.com/store/apps/details?id=tech.ula)** and a **Moto X 2013** and a **Oneplus 6T**.
+Apple and Google have restricted the installation of crypto mining applications from their official stores. Their argument is that due to mining's high processing demand it would reduce the battery usage life.  
+Android users still can find and install apps outside the Play Store with side loading, but this approach has high risks since its hard to audit the app and guarantee the absence of malicious software.
+Thus, this article suggests a different approach using a Linux emulator available in the Play Store.
+This undertaking suggests **[UserLand](https://play.google.com/store/apps/details?id=tech.ula)** with **Moto X 2013** or with **Oneplus 6T**.
 
 ### Preparing the environment
 
@@ -20,12 +20,13 @@ This article uses **[UserLand](https://play.google.com/store/apps/details?id=tec
 - And chose the connection type: `ssh`  
   <img src="./img2.jpg" width="20%"/>
 - Once installed insert the password chosen previously
+  - the password does not appear while typing in Linux' terminals
 - Linux configuration finished
 
 After the Linux install, some packages must be installed before installing the miner itself.
 
 - `apt update`
-- To ease the configuration it is possible to access the emulated Linux via reverse ssh:
+- To ease the configuration it is possible to access the emulated Linux via reverse ssh from another Linux machine:
   - `apt install openssh-server -y`
   - `ssh -R \<port\>:localhost:22 \<user\>@\<host\>`
     - the chosen port must be unused in the remote machine
@@ -33,13 +34,13 @@ After the Linux install, some packages must be installed before installing the m
     - This tutorial used the port `40000` and named the usar as `android`:
       - from the android device: `ssh -R 40000:localhost:22 ur_user@ur_host_ip`
       - `ssh android@localhost -p 40000`
-    - windows users may have some extra difficulties
+    - windows users may have difficulties to use reverse ssh
 - `apt upgrade -y`
 - `apt install -y vim git build-essential cmake libhwloc-dev libssl-dev libuv1-dev`
 
 ### Installing the miner
 
-Due to the devices limitations, this tutorial suggests the mining of [Monero](https://www.getmonero.org/), since its still performant without GPU alongside the usage of a mining pool, so below follows the [XMRig](https://www.getmonero.org/resources/user-guides/mine-to-pool.html) installation steps.
+Due to the devices limitations, this tutorial suggests the mining of [Monero](https://www.getmonero.org/), since it can still perform without GPU alongside the usage of a mining pool, so below follows the [XMRig](https://www.getmonero.org/resources/user-guides/mine-to-pool.html) installation steps.
 
 - `git clone https://github.com/xmrig/xmrig.git`
   - if `git clone` fails:
@@ -140,9 +141,9 @@ This tutorial was also performed in an Oneplus 6T (oneplus 6010) and returned a 
 
 [image source](https://www.cryptocompare.com/mining/calculator/xmr?HashingPower=597&HashingUnit=H%2Fs&PowerConsumption=20&CostPerkWh=1&MiningPoolFee=1)
 
-After monitoring the network for 30 minutes no significant data trafic was noticed, so this cost in not considered in the income simulation.
+After monitoring the network for 30 minutes no significant data trafic was noticed, so this cost is not considered in the income simulation.
 
-Althogh successfully mining with a more recent and profitable Android device, one must consider the possible consequences. During testing with the Oneplus 6T, the device heated considerably, which puts pressure on the durability of the battery and the device itself.
+Althogh successfully mining with a more recent and profitable Android device, one must consider the possible outcomes. During testing with the Oneplus 6T, the device heated considerably, which put pressure on the durability of the battery and the device itself.
 <div>
   While mining on the left; while idle on the right.<br/>
   <img src="./img5.jpg" width="20%"/>  
@@ -152,14 +153,16 @@ Althogh successfully mining with a more recent and profitable Android device, on
 ### Conclusion
 
 It is perfecly possible to mine using Android devices and depending of the device chosen it is even possible to profit. Yet, one must consider the durability pressure, reducing the lifespan of the battery or other components.  
-There is also the web mining option (one can be found [here](https://moneroocean.stream/)) which is performed straight from the browser or other optimized scripts (like this [one](https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh)) which where not considered in this article due to low profit or lack of knowledge about reliability or auditing of it's installation and mining scripts.
+There is also a web mining option (one can be found [here](https://moneroocean.stream/)) which is performed straight from the browser or other optimized scripts (like this [one](https://raw.githubusercontent.com/MoneroOcean/xmrig_setup/master/setup_moneroocean_miner.sh)) which where not considered in this article due to low profit or lack of knowledge about reliability or auditing of it's installation and mining scripts.
 
 ### Donation
 
-If desired, donations to the address _42x6rdxrdziNL6EiHrx6ry1jGdsxZgKc5REQdFKkSeZ3NmMH2TxYfza2KscZsvj7TWAh2M9iZ2DJGJi5FiDMKkQdEueEZEL_ are welcome, be it directly or via mining.
+If you want, you can donate in the address _42x6rdxrdziNL6EiHrx6ry1jGdsxZgKc5REQdFKkSeZ3NmMH2TxYfza2KscZsvj7TWAh2M9iZ2DJGJi5FiDMKkQdEueEZEL_. Donations are welcome, be it direct or via mining.
 
 ### References
 
 - [XMRig on Raspberrypi OS 32-bit](https://www.raspberrypi.org/forums/viewtopic.php?f=63&t=305983&sid=99d0bfda8541024dda55613f7e3a942f)
 - [How to mine on a pool with XMRig](https://www.getmonero.org/resources/user-guides/mine-to-pool.html)
 - [Mining Calculator](https://www.cryptocompare.com/mining/calculator/xmr?HashingPower=170&HashingUnit=H%2Fs&PowerConsumption=4.335&CostPerkWh=0.14&MiningPoolFee=1)
+
+_Reviewed by [Heitor Brandão](https://m.facebook.com/heitorvinicius.guedesbrandao) at 2021-07-14_
