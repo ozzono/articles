@@ -9,7 +9,7 @@ Nesse comentário vou tratar sobre as formas mais comuns de realizar a validaç�
   - [Projeto completo compartilhado com repositório do Git](#projeto-completo-compartilhado-com-reposit%C3%B3rio-git);
   - [Codificação ao vivo (_live coding_) - programação em par (_pair programming_)](#codifica%C3%A7%C3%A3o-ao-vivo-live-coding)
   - [Entrevista Técnica](#entrevista-t%C3%A9cnica)
-  - [Acrescentar código a projeto iniciado](#acrescentar-código-a-projeto-iniciado)
+  - [Acrescentar código a projeto iniciado](#editar-código-a-projeto-iniciado)
 - [Opinião](#opini%C3%A3o)
 - [Aos recrutadores](#aos-recrutadores)
 
@@ -17,10 +17,11 @@ Nesse comentário vou tratar sobre as formas mais comuns de realizar a validaç�
 
 São ferramentas de mercado que se dedicam em desenvolver testes de código a fim de aferir grau de conhecimento de diversas tecnologias, incluíndo as mais usadas na atualidade.  
 Ferramentas como HackerRank são interessantes e tem seu espaço. Falham por aplicar uma limitação de tempo muito estrita, o que pode, inclusive, impedir que o candidato sequer entregue o trabalho, implicando na ausência de desempenho, o que é o pior dos casos para todos.
+Recentemente tive contato com ferramenta dessa categoria que te permite concluir os testes dentro de 24h sendo que cada teste tem sua própria duração. Essa facilidade permite que se realize todos os testes com maior liberdade e evita a existência de testes que somem 120m contínuos, por exemplo.
 
 |Prós|Contras|
 |-|-|
-|Os testes são relativamente rápidos;|Tem limitação estrita de tempo;|
+|Os testes costumam rápidos;|Tem limitação estrita de tempo e alguns teste chegam a somar 180 minutos.|
 |Inclui testes de banco de dados além de testes de código e de lógica;|O teste é limitado, tornando-o superficial e insuficiente;|
 ||O teste é realizado via web, o que é muito ruim;|
 ||Lenditão na entrega do resultado, a depender da plataforma.|
@@ -29,7 +30,7 @@ Ferramentas como HackerRank são interessantes e tem seu espaço. Falham por apl
 
 ## Projeto completo compartilhado com repositório Git
 
-Normalmente recebe o apelido de _desafio de código_ em que a equipe técnica detalha o que deve ser desenvolvido e, via de regra, compartilhado de volta usando ferramentas como o  Github.  
+Normalmente recebe o apelido de _desafio de código_ em que a equipe técnica detalha o que deve ser desenvolvido e, via de regra, compartilhado de volta usando ferramentas de versionamento de código como o  Github.  
 Esse tipo de desafio tem enorme flexibilidade e dá margem para que se verifique o grau de conhecimento dos exatos tópicos de interesse. Entre as desvantagens desse tipo de avaliação temos o fato de que costumam ser lentos, demorando em média uma semana, o que não só pode desestimular o candidato como também pode potencialmente deixar a sensação de tempo desperdiçado. O esforço desse tipo de avaliação também pode gerar sobrecarga no volume de trabalho do candidato, especialmente se estiver em recrutamentos simultâneos.  
 Considere também que o canditado pode já ter desenvolvido num desafio anterior algo parecido com o que será exigido nesse novo processo, ou seja, ele vai apenas reescrever e adaptar as partes necessárias para atender a descrição. Nesse caso vale a pena olhar o Github antes, tal como descrito [aqui](#avalia%C3%A7%C3%A3o-de-reposit%C3%B3rios-p%C3%BAblicos).
 
@@ -70,7 +71,7 @@ Por sua vez, o entrevistador tem a oportunidade de abordar desafios que são imp
 
 ##### [[voltar para topo]](#conteúdo-considerado-nesse-artigo)
 
-## Acrescentar código a projeto iniciado
+## Editar código a projeto iniciado
 
 Edição de código já iniciado e funcional, implementando alguma nova regra de negócio ou funcionalidade de acordo com a descrição do desafio.  
 Nesse formato o candidato recebe um repositório já pronto e funcional e cabe a este implementar algo novo conforme solicitado. Esse tipo de desafio é o que mais se aproxima do dia a dia de desenvolvimento em que é preciso navegar por código já escrito por outra pessoa e, mais importante, entender o que está escrito e encontrar um caminho para implementar o que é pedido. Se bem elaborado haverá a necessidade de entender de diversas tecnologias e conceitos tais como git, banco de dados, testes automatizados ou REST bem como a compreensão de paradigmas de desenvolvimento como MVC ou talvez algum _design pattern_. Esse formato também seria um híbrido entre [ferramentas online de avaliação técnica](#hackerrank-e-assemelhados), dado que não é preciso construir um projeto do zero, e [desafio de código compartilhado](#projeto-completo-compartilhado-com-reposit%C3%B3rio-git), dado que está próximo do dia a dia da própria empresa que está recrutando. Abrange, portanto, vantagens das duas abordagens.
@@ -97,10 +98,10 @@ Nesse formato o candidato na verdade não faz nada, dado que supostamente já es
 
 ## Opinião
 
-Após já ter sido submetido a todos esses tipos de avaliação acredito que a melhor forma de aferir o conhecimento de um desenvolvedor de software consiste na soma de algum teste técnico seguido de entrevista técnica de modo que é possível avaliar tanto a fluência na linguagem em que se pretende trabalhar quanto a compreensão acerca dos desafios mais comuns ao se manter um serviço web de alta escala e demanda bem como permite fazer a revisão do código submetido a fim de compreender a forma como o candidato raciocina e resolve problemas. Pessoalmente eu escolheria a [edição de repositório com código legado](#edi%C3%A7%C3%A3o-de-reposit%C3%B3rio-j%C3%A1-desenvolvido) ou a [avaliação de repositórios públicos](#avalia%C3%A7%C3%A3o-de-reposit%C3%B3rios-p%C3%BAblicos) compartilhados e mantidos pelo candidato seguidos de entrevista técnica com um _techlead_ ou mais.
+Após já ter sido submetido a todos esses tipos de avaliação acredito que a melhor forma de aferir o conhecimento de um desenvolvedor de software consiste na soma de algum teste técnico seguido de entrevista técnica de modo que é possível avaliar tanto a fluência na linguagem em que se pretende trabalhar quanto a compreensão acerca dos desafios mais comuns ao se manter um serviço web de alta escala e demanda bem como permite fazer a revisão do código submetido a fim de compreender a forma como o candidato raciocina e resolve problemas. Pessoalmente eu escolheria a [edição de repositório com código legado](#edi%C3%A7%C3%A3o-de-reposit%C3%B3rio-j%C3%A1-desenvolvido) ou a [avaliação de repositórios públicos](#avalia%C3%A7%C3%A3o-de-reposit%C3%B3rios-p%C3%BAblicos) compartilhados e mantidos pelo candidato seguidos de entrevista técnica com um _techlead_ ou mais. A envio de [desafio de código com projeto](#projeto-completo-compartilhado-com-repositório-git) combinado com [entrevista técnica](#entrevista-técnica) com foco em comentar o código escrito e compartilhado também permite entender o quanto o candidato entender do código que escreveu e alternativas ao que foi apresentado.
 
 ##### [[voltar para topo]](#conteúdo-considerado-nesse-artigo)
 
 ## Aos recrutadores
 
-Aos recrutadores e techleads que participam dos processos seletivos fica o convite para que, além de aplicar qualquer dos formatos de validação técnica, incluam também ao processo alguma devolutiva, o famoso _feedback_, nesse caso _feedback técnico_, a fim de que o candidato possa conhecer a própria falha e também se preparar melhor para as próximas oportunidades que surgirem.
+Aos recrutadores e techleads que participam dos processos seletivos fica o convite para que, além de aplicar qualquer dos formatos de validação técnica, incluam também ao processo alguma devolutiva, o famoso _feedback_, nesse caso _feedback técnico_, a fim de que o candidato possa conhecer a própria falha e também se preparar melhor para as próximas oportunidades que surgirem. Esse feedback não precisa ser detalhado e completo; pode ser apenas um resumo ou mesmo as as notas feitas pelo entrevistador que o levou a concluir negativamente a respeito do candidato.
