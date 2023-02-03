@@ -2,6 +2,8 @@
 
 Neste artigo, abordarei as principais práticas para validar as habilidades e conhecimentos técnicos de programadores e desenvolvedores de software durante o processo de recrutamento.
 
+##### _Read it in english [here](./skill-assesment_en.md)_
+
 ## Conteúdo considerado nesse artigo
 
 - Formas de validação técnica:
@@ -21,14 +23,14 @@ Neste artigo, abordarei as principais práticas para validar as habilidades e co
 
 São ferramentas úteis para avaliar o conhecimento técnico de programadores e desenvolvedores de software. No entanto, a restrição de tempo rígida presente na maioria dos testes pode ser um problema, pois impede que o candidato entregue o trabalho e, consequentemente, não permite avaliar o seu desempenho.
 Ao menos algumas das plataformas permitem concluir os testes dentro de 24 horas, com duração específica para cada teste. Isso proporciona maior flexibilidade e evita a existência de testes contínuos de 120 minutos, por exemplo.
-Apesar de a maioria dos testes serem interessantes e desafiadores, a restrição de tempo não condiz com a realidade diária de quem trabalha com programação e, portanto, não avalia de forma adequada as habilidades do candidato.
+Apesar de a maioria dos testes serem interessantes e desafiadores, tanto o tipo de problema quanto a restrição de tempo não condizem com a realidade diária de quem trabalha com programação e, portanto, não avaliam de forma adequada as habilidades do candidato.
 
 |Prós|Contras|
 |-|-|
-|Os testes costumam rápidos.|Tem limitação estrita de tempo e alguns teste chegam a somar 180 minutos.|
+|Os testes costumam ser rápidos.|Tem limitação estrita de tempo e alguns teste chegam a somar 180 minutos.|
 |Inclui testes de banco de dados além de testes de código e de lógica.|O teste é limitado, tornando-o superficial e insuficiente.|
 ||O teste é realizado via web, o que é muito ruim.|
-||Habilidades avaliadas não são utilizadas no dia a dia da maior parte dos programadores ou das empresas|
+||**Não** avalia as reais habilidades utilizadas no dia a dia da maior parte dos programadores ou das empresas.|
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
 
@@ -53,12 +55,14 @@ Analisar os repositórios compartilhados pelo candidato pode tornar o processo d
 Modalidade de desafio em que o candidato é convidado a escrever código junto com seus avaliadores e à medida que é feito o teste o avaliador faz perguntas chave para aferir o grau de conhecimento do candidato além da sua fluência na tecnologia em questão.  
 Entrevistas como essa costumam ser rápidas e seriam algo semelhante a uma mescla entre a [Entrevista Técnica](#entrevista-técnica) e o [Projeto completo](#projeto-completo-compartilhado-com-reposit%C3%B3rio-git), feitas as ressalvas de complexidade e tempo do desafio.  
 A avaliação ao vivo também pode ser útil para aferir a capacidade do candidato de se comunicar e trabalhar em equipe, além de sua capacidade de lidar com pressão e adaptabilidade. No entanto, é importante que o avaliador tenha habilidades de comunicação e feedback eficazes para evitar que o candidato se sinta desconfortável ou pressionado demais. Além disso, é recomendável que o desafio seja projetado para ser realista e coerente com o trabalho diário do programador, de modo a fornecer uma avaliação precisa e justa.
+Por ser opção com tempo curto, também pode se tornar incoerente com o dia a dia de trabalho.
 
 |Prós|Contras|
 |-|-|
 |Entrevista relativamente curta|Dada a limitação de tempo torna-se difícil abordar aspectos técnicos avançados;
 |Permite aferir a capacidade de lidar com pressão e adaptabilidade.|Exige cautela do avaliador para evitar demasiada pressão no candidato.|
 ||Pode não fazer sentido caso _pair programming_ não faça parte do dia a dia dos desenvolvedores da empresa.|
+||Em geral as tarefas reais não possuem prazo de minutos ou horas, podendo o programador trabalhar com mais liberdade cada problema.|
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
 
@@ -71,18 +75,19 @@ Por sua vez, o entrevistador tem a oportunidade de abordar desafios que são imp
 |Prós|Contras|
 |-|-|
 |Costuma ser rápida, durando em média 1h.|Depende da leitura subjetiva do entrevistador.|
-|Permite ao entrevistador questionar questões que via de regra não tem como ser abordados em desafios de código.||
+|Permite ao entrevistador questionar detalhes que via de regra não tem como ser abordados em desafios de código.||
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
 
 ## Editar código em projeto iniciado
 
 Edição de código já iniciado e funcional, implementando alguma nova regra de negócio ou funcionalidade de acordo com a descrição do desafio.  
-Nesse formato o candidato recebe um repositório já pronto e funcional e cabe a este implementar algo novo conforme solicitado. Esse tipo de desafio é o que mais se aproxima do dia a dia de desenvolvimento em que é preciso navegar por código já escrito por outra pessoa e, mais importante, entender o que está escrito e encontrar um caminho para implementar o que é pedido. Se bem elaborado haverá a necessidade de entender de diversas tecnologias e conceitos tais como git, banco de dados, testes automatizados ou REST bem como a compreensão de paradigmas de desenvolvimento como MVC ou talvez algum _design pattern_. Esse formato também seria um híbrido entre [ferramentas online de avaliação técnica](#hackerrank-e-assemelhados), dado que não é preciso construir um projeto do zero, e [desafio de código compartilhado](#projeto-completo-compartilhado-com-reposit%C3%B3rio-git), dado que está próximo do dia a dia da própria empresa que está recrutando. Abrange, portanto, vantagens das duas abordagens.
+Nesse formato o candidato recebe um repositório já pronto e funcional e cabe a este implementar algo novo conforme solicitado. Esse tipo de desafio é o que mais se aproxima do dia a dia de desenvolvimento em que é preciso navegar por código legado e, mais importante, entender o que está escrito e encontrar um caminho para implementar o que é pedido. Se bem elaborado haverá a necessidade de entender de diversas tecnologias e conceitos tais como git, banco de dados, testes automatizados ou REST bem como a compreensão de paradigmas de desenvolvimento como MVC ou talvez algum _design pattern_. Esse formato também seria um híbrido entre [ferramentas online de avaliação técnica](#hackerrank-e-assemelhados), dado que não é preciso construir um projeto do zero, e [desafio de código compartilhado](#projeto-completo-compartilhado-com-reposit%C3%B3rio-git), que está próximo do dia a dia da própria empresa que está recrutando. Abrange, portanto, vantagens das duas abordagens.
+Por ser o tipo mais direcionado de validação, talvez se torne um teste superficial.
 
 |Prós|Contras|
 |-|-|
-|O desafio costuma ser rapido, durando em média 1h.||
+|O desafio costuma ser rapido, durando em média 1h.|Direcionamento do teste pode torná-lo superficial.|
 |Possibilidade de avaliar importantes conhecimentos acessórios como git, banco de dados, REST, MVC, _design patterns_, testes automatizados.||
 |Avalia capacidade de compreensão de código legado e de implementação de novas funciodalidades.||
 
@@ -96,19 +101,24 @@ O resultado se assemelha ao do [desafio de código](#projeto-completo-compartilh
 
 |Prós|Contras|
 |-|-|
-|Avaliação sem demanda de esforço por parte do candidato.|Se necessário, permite que se faça apenas a avaliação de habilidade ou conhecimento específico.|
+|Avaliação sem demanda de esforço por parte do candidato.||
+|Se necessário, permite que se faça apenas a avaliação de habilidade ou conhecimento específico.||
 |Avaliação rápida.||
-
-[voltar ao topo](#conteúdo-considerado-nesse-artigo)
-
-## Opinião
-
-Após já ter sido submetido a todos esses tipos de avaliação acredito que a melhor forma de aferir o conhecimento de um desenvolvedor de software consiste na soma de algum teste técnico seguido de entrevista técnica de modo que é possível avaliar tanto a fluência na linguagem em que se pretende trabalhar quanto a compreensão acerca dos desafios mais comuns ao se manter um código com alta complexidade e demanda bem como permite fazer a revisão do código submetido a fim de compreender a forma como o candidato raciocina e resolve problemas. Pessoalmente eu escolheria a [edição de repositório com código legado](#editar-código-a-projeto-iniciado) ou a [avaliação de repositórios públicos](#avaliação-de-repositórios-públicos) compartilhados e mantidos pelo candidato seguidos de entrevista técnica com um _techlead_ ou mais. A envio de [desafio de código com projeto](#projeto-completo-compartilhado-com-repositório-git) combinado com [entrevista técnica](#entrevista-técnica) com foco em comentar o código escrito e compartilhado também permite entender o quanto o candidato entender do código que escreveu e alternativas ao que foi apresentado.
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
 
 ## Aos recrutadores
 
-Aos recrutadores e techleads que participam dos processos seletivos fica o convite para que, além de aplicar qualquer dos formatos de validação técnica, incluam também ao processo alguma devolutiva, o famoso _feedback_, nesse caso _feedback técnico_, a fim de que o candidato possa, se for o caso, conhecer as próprias falhas e também se preparar melhor para as próximas oportunidades que surgirem. Esse feedback não precisa ser detalhado e completo; pode ser apenas um resumo ou mesmo as notas feitas pelo entrevistador que o levou a concluir negativamente a respeito do candidato.
+Um desempenho ruim em um teste de validação, especialmente nos mais superficiais, não significa que o candidato possui habilidades ou conhecimentos insuficientes. Ademais, é importante saber quais requisitos são realmentes necessários para o exercício da função e quais são secundários. Nos dias de hoje, existem muitas formas de resolver problemas complexos, graças à infinidade de fontes de conhecimento disponíveis e ao conhecimento consolidado e compartilhado. Portanto, compõe o leque de habilidades importantes de um desenvolvedor de software saber fazer a pergunta certa a fim de encontrar a resposta de que precisa, tornando dispensável ter tudo na ponta da língua.
+Ademais, aos recrutadores e techleads que participam dos processos seletivos fica o convite para que, além de aplicar qualquer dos formatos de validação técnica, incluam também ao processo alguma devolutiva, o famoso _feedback_, nesse caso _feedback técnico_, a fim de que o candidato possa, se for o caso, conhecer as próprias falhas e também se preparar melhor para as próximas oportunidades que surgirem. Esse feedback não precisa ser detalhado e completo; pode ser apenas um resumo ou mesmo as notas feitas pelo entrevistador que o levou a concluir negativamente a respeito do candidato.
+
+[voltar ao topo](#conteúdo-considerado-nesse-artigo)
+
+---
+
+## Opinião
+
+Após já ter sido submetido a todos esses tipos de avaliação, acredito que a melhor forma de aferir o conhecimento de um desenvolvedor de software consiste na soma de algum teste técnico, seguido de entrevista técnica de modo que é possível avaliar tanto a fluência na linguagem em que se pretende trabalhar quanto a compreensão acerca dos desafios mais comuns ao se manter um código com alta complexidade e demanda, bem como permite fazer a revisão do código submetido a fim de compreender a forma como o candidato raciocina e resolve problemas.
+Pessoalmente eu escolheria a [avaliação de repositórios públicos](#avaliação-de-repositórios-públicos) compartilhados e mantidos pelo candidato ou o [desafio de código com projeto](#projeto-completo-compartilhado-com-repositório-git) seguido de [entrevista técnica](#entrevista-técnica). Essa combinação tem as melhores chances de conhecer a profundidade do conhecimento do candidato bem como a capacidade de resolver problemas e ainda aferir domínios não técnicos como auto-controle e comunicação.
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
