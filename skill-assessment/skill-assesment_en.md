@@ -147,3 +147,8 @@ As I have already been submitted to all these types of assessments, I believe th
 I would choose repository [editing with legacy code](#edit-code-in-an-existing-project) or [Assessment of public shared repositories](#an-entire-project-shared-through-a-git-repository) maintained by the candidate, followed by a technical interview with one or more tech leads. Submitting to a code challenge with a project combined with a [technical interview](#technical-interview) focused on commenting on the shared code also allows you to understand how much the candidate understands about the code he wrote and alternatives to what was presented.
 
 [back to the top](#table-of-contents)
+
+## Use of Artificial Intelligence
+
+Following technological innovations, linguistic AI emerged, like ChatGPT, which suggests valid code from a simple description and complete code if the request is comprehensive and well made. Furthermore, there is nothing to prevent its use in conjunction with any of the types of technical validation mentioned so far. Therefore, more than ever, technical assessments need to consider the existence and use of these new tools, as [ChatGPT now has sufficient training to be approved in the Googles recruitment process](https://www.pcmag.com/news/chatgpt-passes-google-coding-interview-for-level-3-engineer-with-183k-salary).
+In other words, this article will age fast, and technical validations and processes that do not modernize will age along with it.

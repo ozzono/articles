@@ -137,3 +137,10 @@ Após já ter sido submetido a todos esses tipos de avaliação, acredito que a 
 Pessoalmente eu escolheria a [avaliação de repositórios públicos](#avaliação-de-repositórios-públicos) compartilhados e mantidos pelo candidato ou o [desafio de código com projeto](#projeto-completo-compartilhado-com-repositório-git) seguido de [entrevista técnica](#entrevista-técnica). Essa combinação tem as melhores chances de conhecer a profundidade do conhecimento do candidato bem como a capacidade de resolver problemas e ainda aferir domínios não técnicos como auto-controle e comunicação.
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
+
+## Uso de Inteligências Artificiais
+
+Na esteira das inovações tecnológicas, surgem as IAs linguísticas, com destaque para o ChatGPT, que sugerem código razoável a partir de uma descrição simples, e sugerem código completo caso a solicitação seja abrangente e bem feita. Inclusive, nada impede seu uso junto a qualquer dos tipos de validação técnica citados até aqui. Em vista disso, as validações técnicas precisam, mais do que nunca, considerar a existência e o uso dessas novas ferramentas, pois agora o [ChatGPT já possui treinamento suficiente para ser aprovado em recrutamento do Google](https://www.pcmag.com/news/chatgpt-passes-google-coding-interview-for-level-3-engineer-with-183k-salary).  
+Ou seja, esse artigo envelhecerá muito rápido e as validações técnicas e processos que não se modernizarem, envelhecerão junto.
+
+[voltar ao topo](#conteúdo-considerado-nesse-artigo)
