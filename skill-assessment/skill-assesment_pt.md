@@ -27,12 +27,15 @@ Ao menos algumas das plataformas permitem concluir os testes dentro de 24 horas,
 
 Apesar de a maioria dos testes serem interessantes e desafiadores, tanto o tipo de problema quanto a restrição de tempo não condizem com a realidade diária de quem trabalha com programação e, portanto, não avaliam de forma adequada as habilidades do candidato.
 
-|Prós|Contras|
-|-|-|
-|Os testes costumam ser rápidos.|Tem limitação estrita de tempo e alguns teste chegam a somar 180 minutos.|
-|Inclui testes de banco de dados além de testes de código e de lógica.|O teste é limitado, tornando-o superficial e insuficiente.|
-||O teste é realizado via web, o que é muito ruim.|
-||**Não** avalia as reais habilidades utilizadas no dia a dia da maior parte dos programadores ou das empresas.|
+Prós
+
+- Os testes costumam ser rápidos;
+- Inclui testes de banco de dados além de testes de código e de lógica;
+Contras
+- Tem limitação estrita de tempo e alguns teste chegam a somar 180 minutos;
+- O teste é limitado, tornando-o superficial e insuficiente;
+- O teste é realizado via web, o que é muito ruim;
+- **Não** avalia as reais habilidades utilizadas no dia a dia da maior parte dos programadores ou das empresas;
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
 
@@ -44,13 +47,16 @@ Embora essa avaliação seja abrangente, ela pode ser lenta e demorar cerca de u
 
 Analisar os repositórios compartilhados pelo candidato pode tornar o processo de recrutamento muito mais rápido sem renunciar a requerimentos técnicos.
 
-|Prós|Contras|
-|-|-|
-|Enorme flexibilidade.|Avaliação lenta.|
-|Possibilidade de aferir com profundidade conhecimento tão somente dos tópicos de interesse.|Possível desestímulo em razão da demora.|
-||Possível sensação de tempo desperdiçado ao final da avaliação.|
-||Possível sobrecarga do candidato.|
-||Possibilidade do candidato já ter feito algo semelhante antes e apenas repetir e adaptar.|
+Prós
+
+- Enorme flexibilidade;
+- Possibilidade de aferir com profundidade conhecimento tão somente dos tópicos de interesse;
+Contras
+- Avaliação lenta;
+- Possível desestímulo em razão da demora;
+- Possível sensação de tempo desperdiçado ao final da avaliação;
+- Possível sobrecarga do candidato;
+- Possibilidade do candidato já ter feito algo semelhante antes e apenas repetir e adaptar;
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
 
@@ -64,12 +70,15 @@ A avaliação ao vivo também pode ser útil para aferir a capacidade do candida
 
 Por ser opção com tempo limitado, também pode se tornar incoerente com o dia a dia de trabalho.
 
-|Prós|Contras|
-|-|-|
-|Entrevista relativamente curta|Dada a limitação de tempo torna-se difícil abordar aspectos técnicos avançados;
-|Permite aferir a capacidade de lidar com pressão e adaptabilidade.|Exige cautela do avaliador para evitar demasiada pressão no candidato.|
-||Pode não fazer sentido caso _pair programming_ não faça parte do dia a dia dos desenvolvedores da empresa.|
-||Em geral as tarefas reais não possuem prazo de minutos ou horas sendo, portanto, mais flexiveis do que o que é abordado no teste.|
+Prós
+
+- Entrevista relativamente curta
+- Permite aferir a capacidade de lidar com pressão e adaptabilidade
+Contras
+- Dada a limitação de tempo torna-se difícil abordar aspectos técnicos avançados;
+- Exige cautela do avaliador para evitar demasiada pressão no candidato;
+- Pode não fazer sentido caso _pair programming_ não faça parte do dia a dia dos desenvolvedores da empresa;
+- Em geral as tarefas reais não possuem prazo de minutos ou horas sendo, portanto, mais flexiveis do que o que é abordado no teste;
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
 
@@ -81,10 +90,12 @@ A entrevista técnica normalmente é realizada pelo chamado _tech lead_, profiss
 
 Por sua vez, o entrevistador tem a oportunidade de abordar desafios que são impossíveis de contemplar em desafio de código, tais como concorrência, uso otimizado de recursos, desafios particulares da empresa, segurança sob diversos aspectos entre tantos outros.
 
-|Prós|Contras|
-|-|-|
-|Costuma ser rápida, durando em média 1h.|Depende da leitura subjetiva do entrevistador.|
-|Permite ao entrevistador questionar detalhes que via de regra não tem como ser abordados em desafios de código.||
+Prós
+
+- Costuma ser rápida, durando em média 1h;
+- Permite ao entrevistador questionar detalhes que via de regra não tem como ser abordados em desafios de código;
+Contras
+- Depende da leitura subjetiva do entrevistador;
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
 
@@ -96,11 +107,13 @@ Nesse formato o candidato recebe um repositório já pronto e funcional e cabe a
 
 Por ser o tipo mais direcionado de validação, exige cuidado para que não se torne um teste superficial.
 
-|Prós|Contras|
-|-|-|
-|O desafio costuma ser rapido, durando em média 1h.|Direcionamento do teste pode torná-lo superficial.|
-|Possibilidade de avaliar importantes conhecimentos acessórios como git, banco de dados, REST, MVC, _design patterns_, testes automatizados.||
-|Avalia capacidade de compreensão de código legado e de implementação de novas funciodalidades.||
+Prós
+
+- O desafio costuma ser rapido, durando em média 1h;
+- Possibilidade de avaliar importantes conhecimentos acessórios como git, banco de dados, REST, MVC, _design patterns_, testes automatizados;
+- Avalia capacidade de compreensão de código legado e de implementação de novas funciodalidades;
+Contras
+- Direcionamento do teste pode torná-lo superficial;
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
 
@@ -112,11 +125,11 @@ Nesse formato o candidato na verdade não faz nada, dado que supostamente já es
 
 O resultado se assemelha ao do [desafio de código](#projeto-completo-compartilhado-com-repositório-git), afinal pode ser exatamente um projeto derivado de um desafio anterior. Caso seja necessário aferir mais alguma habilidade ou conhecimento, pode ser feito um teste direcionado para a o tópico específico.
 
-|Prós|Contras|
-|-|-|
-|Avaliação sem demanda de esforço por parte do candidato.||
-|Se necessário, permite que se faça apenas a avaliação de habilidade ou conhecimento específico.||
-|Avaliação rápida.||
+Prós
+
+- Avaliação sem demanda de esforço por parte do candidato;
+- Se necessário, permite que se faça apenas a avaliação de habilidade ou conhecimento específico;
+- Avaliação rápida;
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
 
@@ -140,7 +153,9 @@ Pessoalmente eu escolheria a [avaliação de repositórios públicos](#avaliaç�
 
 ## Uso de Inteligências Artificiais
 
-Na esteira das inovações tecnológicas, surgem as IAs linguísticas, com destaque para o ChatGPT, que sugerem código razoável a partir de uma descrição simples, e sugerem código completo caso a solicitação seja abrangente e bem feita. Inclusive, nada impede seu uso junto a qualquer dos tipos de validação técnica citados até aqui. Em vista disso, as validações técnicas precisam, mais do que nunca, considerar a existência e o uso dessas novas ferramentas, pois agora o [ChatGPT já possui treinamento suficiente para ser aprovado em recrutamento do Google](https://www.pcmag.com/news/chatgpt-passes-google-coding-interview-for-level-3-engineer-with-183k-salary).  
+### Ou outras ferramentas dentre as tantas que existem
+
+Na esteira das inovações tecnológicas, surgem as IAs linguísticas, com destaque para o ChatGPT, que sugerem código razoável a partir de uma descrição simples, e sugerem código completo caso a solicitação seja abrangente e bem feita. Inclusive, nada impede seu uso junto a qualquer dos tipos de validação técnica citados até aqui. Em vista disso, as validações técnicas precisam, mais do que nunca, considerar a existência e o uso dessas novas ferramentas, pois agora o [ChatGPT já possui treinamento suficiente para ser aprovado em recrutamento do Google](https://www.pcmag.com/news/chatgpt-passes-google-coding-interview-for-level-3-engineer-with-183k-salary).
 Ou seja, esse artigo envelhecerá muito rápido e as validações técnicas e processos que não se modernizarem, envelhecerão junto.
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
