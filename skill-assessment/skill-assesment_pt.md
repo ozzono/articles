@@ -27,11 +27,13 @@ Ao menos algumas das plataformas permitem concluir os testes dentro de 24 horas,
 
 Apesar de a maioria dos testes serem interessantes e desafiadores, tanto o tipo de problema quanto a restrição de tempo não condizem com a realidade diária de quem trabalha com programação e, portanto, não avaliam de forma adequada as habilidades do candidato.
 
-Prós
+### Prós
 
 - Os testes costumam ser rápidos;
 - Inclui testes de banco de dados além de testes de código e de lógica;
-Contras
+
+### Contras
+
 - Tem limitação estrita de tempo e alguns teste chegam a somar 180 minutos;
 - O teste é limitado, tornando-o superficial e insuficiente;
 - O teste é realizado via web, o que é muito ruim;
@@ -43,20 +45,23 @@ Contras
 
 Também conhecido como desafio de código, é uma forma flexível de avaliar o conhecimento técnico dos candidatos. A equipe técnica fornece uma descrição do que deve ser desenvolvido e o candidato compartilha o resultado usando ferramentas de versionamento de código, como o Github.  
 
-Embora essa avaliação seja abrangente, ela pode ser lenta e demorar cerca de uma semana. Isso pode tanto desestimular o candidato quanto gerar sobrecarga no volume de trabalho, especialmente se ele estiver em processos de recrutamento simultâneos. Além disso, é possível que o candidato já tenha desenvolvido algo semelhante em um desafio anterior, o que pode tornar a avaliação menos eficaz. Por isso, é recomendável verificar o histórico do candidato no Github antes de iniciar o processo, tal como descrito [aqui](#avaliação-de-repositórios-públicos).  
+Embora essa avaliação seja abrangente, ela pode ser lenta e demorar cerca de uma semana. Isso pode tanto desestimular o candidato quanto gerar sobrecarga no volume de trabalho, especialmente se ele estiver em processos de recrutamento simultâneos. Além disso, é possível que o candidato já tenha desenvolvido algo semelhante em um desafio anterior, o que pode tornar a avaliação menos eficaz. Por isso, é recomendável verificar o histórico do candidato no Github antes de iniciar o processo, tal como descrito [aqui](#avaliação-de-repositórios-públicos). Analisar os repositórios compartilhados pelo candidato pode tornar o processo de recrutamento muito mais rápido sem renunciar a requerimentos técnicos.
 
-Analisar os repositórios compartilhados pelo candidato pode tornar o processo de recrutamento muito mais rápido sem renunciar a requerimentos técnicos.
+Ainda sobre esse tipo de validação, é importante lembrar que nada garante que o código compartilhado foi de fato escrito pelo candidato, podendo ser cópia de um outro repositório qualquer ou, como vimos recentemente, de ferramentas de geração de código.
 
-Prós
+### Prós
 
 - Enorme flexibilidade;
 - Possibilidade de aferir com profundidade conhecimento tão somente dos tópicos de interesse;
-Contras
+
+### Contras
+
 - Avaliação lenta;
 - Possível desestímulo em razão da demora;
 - Possível sensação de tempo desperdiçado ao final da avaliação;
 - Possível sobrecarga do candidato;
 - Possibilidade do candidato já ter feito algo semelhante antes e apenas repetir e adaptar;
+- Possibilidade do candidato simplemente copiar de uma fonte qualquer;
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
 
@@ -70,11 +75,13 @@ A avaliação ao vivo também pode ser útil para aferir a capacidade do candida
 
 Por ser opção com tempo limitado, também pode se tornar incoerente com o dia a dia de trabalho.
 
-Prós
+### Prós
 
 - Entrevista relativamente curta
 - Permite aferir a capacidade de lidar com pressão e adaptabilidade
-Contras
+
+### Contras
+
 - Dada a limitação de tempo torna-se difícil abordar aspectos técnicos avançados;
 - Exige cautela do avaliador para evitar demasiada pressão no candidato;
 - Pode não fazer sentido caso _pair programming_ não faça parte do dia a dia dos desenvolvedores da empresa;
@@ -90,11 +97,13 @@ A entrevista técnica normalmente é realizada pelo chamado _tech lead_, profiss
 
 Por sua vez, o entrevistador tem a oportunidade de abordar desafios que são impossíveis de contemplar em desafio de código, tais como concorrência, uso otimizado de recursos, desafios particulares da empresa, segurança sob diversos aspectos entre tantos outros.
 
-Prós
+### Prós
 
 - Costuma ser rápida, durando em média 1h;
 - Permite ao entrevistador questionar detalhes que via de regra não tem como ser abordados em desafios de código;
-Contras
+
+### Contras
+
 - Depende da leitura subjetiva do entrevistador;
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
@@ -107,12 +116,14 @@ Nesse formato o candidato recebe um repositório já pronto e funcional e cabe a
 
 Por ser o tipo mais direcionado de validação, exige cuidado para que não se torne um teste superficial.
 
-Prós
+### Prós
 
 - O desafio costuma ser rapido, durando em média 1h;
 - Possibilidade de avaliar importantes conhecimentos acessórios como git, banco de dados, REST, MVC, _design patterns_, testes automatizados;
 - Avalia capacidade de compreensão de código legado e de implementação de novas funciodalidades;
-Contras
+
+### Contras
+
 - Direcionamento do teste pode torná-lo superficial;
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
@@ -123,13 +134,17 @@ Acessar e avaliar repositórios públicos escritos e mantidos pelo candidato a f
 
 Nesse formato o candidato na verdade não faz nada, dado que supostamente já está tudo feito em projetos nos quais atuou no passado e que deixou público em seu perfil em plataformas como o Github. Cabe, portanto, a um _tech lead_ ler o código e validar se o candidato tem o conhecimento necessário.  
 
-O resultado se assemelha ao do [desafio de código](#projeto-completo-compartilhado-com-repositório-git), afinal pode ser exatamente um projeto derivado de um desafio anterior. Caso seja necessário aferir mais alguma habilidade ou conhecimento, pode ser feito um teste direcionado para a o tópico específico.
+O resultado se assemelha ao do [desafio de código](#projeto-completo-compartilhado-com-repositório-git), afinal pode ser exatamente um projeto derivado de um desafio anterior. Caso seja necessário aferir mais alguma habilidade ou conhecimento, pode ser feito um teste direcionado para a o tópico específico. It also resembles in the disadvantage that the candidate can simply copy from any source or use a code generation tool.
 
-Prós
+### Prós
 
 - Avaliação sem demanda de esforço por parte do candidato;
 - Se necessário, permite que se faça apenas a avaliação de habilidade ou conhecimento específico;
 - Avaliação rápida;
+
+### Contras
+
+- Possibilidade do candidato simplemente copiar de uma fonte qualquer;
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
 

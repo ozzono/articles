@@ -41,6 +41,7 @@ It's common for these tools to have a strict time limitation present in most tes
 ## An entire project shared through a Git repository
 
 Also known only as a code challenge, it's a flexible way to evaluate candidates' technical knowledge. The technical team describes what should be developed, and the candidate shares the result using code versioning tools like Github. However, this comprehensive evaluation can be slow and take around a week. This approach can discourage candidates and generate workload, especially if they are in simultaneous recruitment processes. Additionally, the candidate may have developed something similar in a previous challenge, which can make the evaluation less effective. Therefore, checking the candidate's GitHub history before starting the process is recommended, as described here. Analyzing the repositories shared by the candidate can make the recruitment process much faster without giving up technical requirements.
+Still regarding this type of validation, it is important to remember that nothing guarantees that the shared code was actually written by the candidate, it could be a copy from any other repository or, as we recently saw, from code generation tools.
 
 #### Pros
 
@@ -53,6 +54,7 @@ Also known only as a code challenge, it's a flexible way to evaluate candidates'
 - Possible demotivation due to delay and a potential feeling of wasted time at the end of the evaluation;
 - Possible overload on the candidate;
 - The candidate may have already done something similar before and repeat and adapt;
+- Possibility of the candidate simply copy from any source.
 
 [back to the top](#table-of-contents)
 
