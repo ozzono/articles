@@ -2,7 +2,7 @@
 
 In this article, I will address the leading practices for validating the skills and technical knowledge of programmers and software developers during the recruitment process.
 
-##### _Leia em português [aqui](./skill-assesment_pt.md)_
+##### _Leia em português [aqui](./skill-assesment_pt.md)._
 
 ## Table of contents
 
@@ -21,32 +21,32 @@ In this article, I will address the leading practices for validating the skills 
 
 ### HackerRank and similar tools
 
-Help evaluate the technical knowledge of programmers and software developers. Although most tests are exciting and challenging, both the type of problem and the time constraint do not match the daily reality of those working with programming and therefore do not adequately assess the candidate's skills.
+Helps evaluate the technical knowledge of programmers and software developers. Although most tests are exciting and challenging, both the type of problem and the time constraint do not match the daily reality of those working with programming and therefore do not adequately assess the candidate's skills.
 It's common for these tools to have a strict time limitation present in most tests leading to a problem, as it may prevent the candidate from delivering the work and, consequently, does not allow for evaluating their performance. At least some platforms allow one to complete the tests within 24 hours, with a specific duration for each test. This approach provides greater flexibility and avoids continuous tests of 120 minutes, for example.
 
 #### Pros
 
 - Tests are usually quick;
-- It may include database tests in addition to code and logic tests;
+- It may include database tests in addition to code and logic tests.
 
 #### Cons
 
 - There is a strict time limit, and some tests can add up to 180m;
 - The test is limited, making it superficial and insufficient;
 - The test is conducted online, which could be better;
-- **Does not** assess skills used in the daily routine of most programmers or companies;
+- **Does not** assess skills used in the daily routine of most programmers or companies.
 
 [back to the top](#table-of-contents)
 
 ## An entire project shared through a Git repository
 
-Also known only as a code challenge, it's a flexible way to evaluate candidates' technical knowledge. The technical team describes what should be developed, and the candidate shares the result using code versioning tools like Github. However, this comprehensive evaluation can be slow and take around a week. This approach can discourage candidates and generate workload, especially if they are in simultaneous recruitment processes. Additionally, the candidate may have developed something similar in a previous challenge, which can make the evaluation less effective. Therefore, checking the candidate's GitHub history before starting the process is recommended, as described here. Analyzing the repositories shared by the candidate can make the recruitment process much faster without giving up technical requirements.
-Still regarding this type of validation, it is important to remember that nothing guarantees that the shared code was actually written by the candidate, it could be a copy from any other repository or, as we recently saw, from code generation tools.
+Also known only as a code challenge, it's a flexible way to evaluate candidates' technical knowledge. The technical team describes what should be developed, and the candidate shares the result using code versioning tools like Github. However, this comprehensive evaluation can be slow and take around a week. This approach can discourage candidates and generate workload, especially if they are in simultaneous recruitment processes. Additionally, the candidate may have developed something similar in a previous challenge, which can make the evaluation less effective. Therefore, checking the candidate's GitHub history before starting the process is recommended, as described [here](#assessment-of-public-repositories). Analyzing the repositories shared by the candidate can make the recruitment process much faster without giving up technical requirements.
+Still, regarding this type of validation, it is important to remember that nothing guarantees that the shared code was actually written by the candidate, as it could be a copy from any other source or, as we recently saw, from code generation tools.
 
 #### Pros
 
 - Huge flexibility;
-- Ability to assess in-depth knowledge of only the topics of interest;
+- Ability to assess in-depth knowledge of only the topics of interest.
 
 #### Cons
 
@@ -60,20 +60,20 @@ Still regarding this type of validation, it is important to remember that nothin
 
 ## Live coding interview
 
-A method of challenge in which the candidate is invited to write code with their evaluators. As the test is done, the evaluator asks critical questions to assess the candidate's knowledge and fluency in the technology. Interviews like this are quick and would be similar to a mix between a [Technical Interview](#technical-interview) and the kind of code considered in the [validation tools](#technical-validation-tool), given the complexity and time of the challenge. The live assessment can also help check the candidate's ability to communicate and work in a team and their ability to handle pressure and adaptability. However, the evaluator must have effective communication and feedback skills to avoid making the candidate feel uncomfortable or pressured. Additionally, it is recommended that the challenge be realistic and consistent with the daily work of a programmer to provide an accurate and fair assessment.
+A method of challenge in which the candidate is invited to write code with their evaluators. As the test is done, the evaluator asks critical questions to assess the candidate's knowledge and fluency in the technology. Interviews like this are quick and would be similar to a mix between a [Technical Interview](#technical-interview) and the kind of code considered in the [validation tools](#technical-validation-tool), given the complexity and time of the challenge. The live assessment can also help check the candidate's ability to communicate and work in a team and their ability to handle pressure and adaptability. However, the evaluator must have effective communication and feedback skills to avoid making the candidate feel uncomfortable or pressured. Also, it is recommended that the challenge be realistic and consistent with the daily work of a programmer to provide an accurate and fair assessment.
 Because it is a limited-time option, it can also become inconsistent with the workday.
 
 #### Pros
 
 - Relatively short interview;
-- Assesses the ability to handle pressure and adaptability;
+- Assesses the ability to handle pressure and adaptability.
 
 #### Cons
 
 - Due to the time constraint, it becomes difficult to address advanced technical aspects;
 - Requires caution from the evaluator to avoid excessive pressure on the candidate;
 - It may not make sense if pair programming is not part of the company's developers' daily routine;
-- Generally, real tasks do not have a deadline in minutes or hours, making them more flexible than what is addressed in the test;
+- Generally, real tasks do not have a deadline in minutes or hours, making them more flexible than what is addressed in the test.
 
 [back to the top](#table-of-contents)
 
@@ -88,11 +88,11 @@ In turn, the interviewer has the opportunity to address challenges that are impo
 #### Pros
 
 - It is typically short, lasting at most 1 hour;
-- It allows the interviewer to ask questions that are usually not covered in code challenges;
+- It allows the interviewer to ask questions that are usually not covered in code challenges.
 
 #### Cons
 
-- It depends on the subjective interpretation of the interviewer;
+- It depends on the subjective interpretation of the interviewer.
 
 [back to the top](#table-of-contents)
 
@@ -110,11 +110,11 @@ Because it is the most directed type of validation, it requires care to prevent 
 
 - The challenge is usually quick, lasting on average 1 hour;
 - Opportunity to evaluate essential related knowledge such as git, databases, REST, MVC, design patterns, and automated tests;
-- Assesses the ability to understand legacy code and implement new features;
+- Assesses the ability to understand legacy code and implement new features.
 
 #### Cons
 
-- Too directed tests and may be superficial
+- Too directed tests and may be superficial.
 
 [back to the top](#table-of-contents)
 
@@ -127,7 +127,7 @@ If it is needed to gauge any additional skills or knowledge, a targeted test can
 
 - Assessment without candidate effort required;
 - If necessary, allows for the evaluation of specific skills or knowledge only;
-- Quick assessment;
+- Quick assessment.
 
 #### Cons
 
@@ -152,5 +152,5 @@ I would choose repository [editing with legacy code](#edit-code-in-an-existing-p
 
 ## Use of Artificial Intelligence
 
-Following technological innovations, linguistic AI emerged, like ChatGPT, which suggests valid code from a simple description and complete code if the request is comprehensive and well made. Furthermore, there is nothing to prevent its use in conjunction with any of the types of technical validation mentioned so far. Therefore, more than ever, technical assessments need to consider the existence and use of these new tools, as [ChatGPT now has sufficient training to be approved in the Googles recruitment process](https://www.pcmag.com/news/chatgpt-passes-google-coding-interview-for-level-3-engineer-with-183k-salary).
+Following technological innovations, linguistic AI emerged, like ChatGPT, which suggests valid code from a simple description and complete code if the request is comprehensive and well made. Furthermore, there is nothing to prevent its use in conjunction with any of the types of technical validation mentioned so far. Therefore, more than ever, technical assessments need to consider the existence and use of these new tools, as [ChatGPT now has sufficient training to be approved in Google's recruitment process](https://www.pcmag.com/news/chatgpt-passes-google-coding-interview-for-level-3-engineer-with-183k-salary).
 In other words, this article will age fast, and technical validations and processes that do not modernize will age along with it.

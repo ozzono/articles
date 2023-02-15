@@ -2,12 +2,12 @@
 
 Neste artigo, abordarei as principais práticas para validar as habilidades e conhecimentos técnicos de programadores e desenvolvedores de software durante o processo de recrutamento.
 
-##### _Read it in english [here](./skill-assesment_en.md)_
+##### _Read it in english [here](./skill-assesment_en.md)._
 
 ## Conteúdo considerado nesse artigo
 
 - Formas de validação técnica:
-  - [Ferramentas online de avaliação técnica: hackerrank e outras](#ferramenta-de-validação-técnica)
+  - [Ferramentas online de avaliação técnica: HackerRank e outras](#ferramenta-de-validação-técnica)
   - [Projeto completo compartilhado com repositório do Git](#projeto-completo-compartilhado-com-repositório-git)
   - [Codificação ao vivo (_live coding_) - programação em par (_pair programming_)](#codificação-ao-vivo-live-coding)
   - [Entrevista Técnica](#entrevista-t%C3%A9cnica)
@@ -30,14 +30,14 @@ Apesar de a maioria dos testes serem interessantes e desafiadores, tanto o tipo 
 ### Prós
 
 - Os testes costumam ser rápidos;
-- Inclui testes de banco de dados além de testes de código e de lógica;
+- Inclui testes de banco de dados além de testes de código e de lógica.
 
 ### Contras
 
 - Tem limitação estrita de tempo e alguns teste chegam a somar 180 minutos;
 - O teste é limitado, tornando-o superficial e insuficiente;
 - O teste é realizado via web, o que é muito ruim;
-- **Não** avalia as reais habilidades utilizadas no dia a dia da maior parte dos programadores ou das empresas;
+- **Não** avalia as reais habilidades utilizadas no dia a dia da maior parte dos programadores ou das empresas.
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
 
@@ -52,7 +52,7 @@ Ainda sobre esse tipo de validação, é importante lembrar que nada garante que
 ### Prós
 
 - Enorme flexibilidade;
-- Possibilidade de aferir com profundidade conhecimento tão somente dos tópicos de interesse;
+- Possibilidade de aferir com profundidade conhecimento tão somente dos tópicos de interesse.
 
 ### Contras
 
@@ -61,11 +61,11 @@ Ainda sobre esse tipo de validação, é importante lembrar que nada garante que
 - Possível sensação de tempo desperdiçado ao final da avaliação;
 - Possível sobrecarga do candidato;
 - Possibilidade do candidato já ter feito algo semelhante antes e apenas repetir e adaptar;
-- Possibilidade do candidato simplemente copiar de uma fonte qualquer;
+- Possibilidade do candidato simplemente copiar de uma fonte qualquer.
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
 
-## Codificação ao vivo (live coding)
+## Codificação ao vivo (_live coding_)
 
 Modalidade de desafio em que o candidato é convidado a escrever código junto com seus avaliadores e à medida que é feito o teste o avaliador faz perguntas chave para aferir o grau de conhecimento do candidato além da sua fluência na tecnologia em questão.  
 
@@ -77,15 +77,15 @@ Por ser opção com tempo limitado, também pode se tornar incoerente com o dia 
 
 ### Prós
 
-- Entrevista relativamente curta
-- Permite aferir a capacidade de lidar com pressão e adaptabilidade
+- Entrevista relativamente curta;
+- Permite aferir a capacidade de lidar com pressão e adaptabilidade.
 
 ### Contras
 
 - Dada a limitação de tempo torna-se difícil abordar aspectos técnicos avançados;
 - Exige cautela do avaliador para evitar demasiada pressão no candidato;
 - Pode não fazer sentido caso _pair programming_ não faça parte do dia a dia dos desenvolvedores da empresa;
-- Em geral as tarefas reais não possuem prazo de minutos ou horas sendo, portanto, mais flexiveis do que o que é abordado no teste;
+- Em geral as tarefas reais não possuem prazo de minutos ou horas sendo, portanto, mais flexiveis do que o que é abordado no teste.
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
 
@@ -93,18 +93,18 @@ Por ser opção com tempo limitado, também pode se tornar incoerente com o dia 
 
 Entrevista direta com pessoa reconhecida pela empresa por ter mais experiência e conhecimento de tecnologia e desenvolvimento. Via de regra aborda as tecnologias e desafios que fazem parte do dia a dia da empresa.  
 
-A entrevista técnica normalmente é realizada pelo chamado _tech lead_, profissional com mais tempo de carreira e com vivência nas tecnologias e problemas que fazem parte do negócio da empresa. Infelizmente essa entrevista é por demais subjetiva e não necessariamente reflete o verdadeiro grau de conhecimento e experiências do candidato, o que pode possibilitar uma contratação fadada ao fracasso e à frutração de todas as partes bem como a dispensa precoce de um bom candidato.  
+A entrevista técnica normalmente é realizada pelo chamado _tech lead_, profissional com mais tempo de carreira e com vivência nas tecnologias e problemas que fazem parte do negócio da empresa. Infelizmente essa entrevista é por demais subjetiva e não necessariamente reflete o verdadeiro grau de conhecimento e experiências do candidato, o que pode possibilitar uma contratação fadada ao fracasso e à frustração de todas as partes bem como a dispensa precoce de um bom candidato.  
 
 Por sua vez, o entrevistador tem a oportunidade de abordar desafios que são impossíveis de contemplar em desafio de código, tais como concorrência, uso otimizado de recursos, desafios particulares da empresa, segurança sob diversos aspectos entre tantos outros.
 
 ### Prós
 
 - Costuma ser rápida, durando em média 1h;
-- Permite ao entrevistador questionar detalhes que via de regra não tem como ser abordados em desafios de código;
+- Permite ao entrevistador questionar detalhes que via de regra não tem como ser abordados em desafios de código.
 
 ### Contras
 
-- Depende da leitura subjetiva do entrevistador;
+- Depende da leitura subjetiva do entrevistador.
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
 
@@ -112,7 +112,7 @@ Por sua vez, o entrevistador tem a oportunidade de abordar desafios que são imp
 
 Edição de código já iniciado e funcional, implementando alguma nova regra de negócio ou funcionalidade de acordo com a descrição do desafio.  
 
-Nesse formato o candidato recebe um repositório já pronto e funcional e cabe a este implementar algo novo conforme solicitado. Esse tipo de desafio é o que mais se aproxima do dia a dia de desenvolvimento em que é preciso navegar por código legado e, mais importante, entender o que está escrito e encontrar um caminho para implementar o que é pedido. Se bem elaborado haverá a necessidade de entender de diversas tecnologias e conceitos tais como git, banco de dados, testes automatizados ou REST bem como a compreensão de paradigmas de desenvolvimento como MVC ou talvez algum _design pattern_. Esse formato também seria um híbrido entre [ferramentas online de avaliação técnica](#hackerrank-e-assemelhados), dado que não é preciso construir um projeto do zero, e [desafio de código compartilhado](#projeto-completo-compartilhado-com-reposit%C3%B3rio-git), que está próximo do dia a dia da própria empresa que está recrutando. Abrange, portanto, vantagens das duas abordagens.  
+Nesse formato, o candidato recebe um repositório já pronto e funcional e cabe a este implementar algo novo conforme solicitado. Esse tipo de desafio é o que mais se aproxima do dia a dia de desenvolvimento em que é preciso navegar por código legado e, mais importante, entender o que está escrito e encontrar um caminho para implementar o que é pedido. Se bem elaborado, haverá a necessidade de entender de diversas tecnologias e conceitos, tais como git, banco de dados, testes automatizados ou REST, bem como a compreensão de paradigmas de desenvolvimento como MVC ou talvez algum _design pattern_. Esse formato também seria um híbrido entre [ferramentas online de avaliação técnica](#hackerrank-e-assemelhados), dado que não é preciso construir um projeto do zero, e [desafio de código compartilhado](#projeto-completo-compartilhado-com-reposit%C3%B3rio-git), que está próximo do dia a dia da própria empresa que está recrutando. Abrange, portanto, vantagens das duas abordagens.  
 
 Por ser o tipo mais direcionado de validação, exige cuidado para que não se torne um teste superficial.
 
@@ -120,11 +120,11 @@ Por ser o tipo mais direcionado de validação, exige cuidado para que não se t
 
 - O desafio costuma ser rapido, durando em média 1h;
 - Possibilidade de avaliar importantes conhecimentos acessórios como git, banco de dados, REST, MVC, _design patterns_, testes automatizados;
-- Avalia capacidade de compreensão de código legado e de implementação de novas funciodalidades;
+- Avalia capacidade de compreensão de código legado e de implementação de novas funciodalidades.
 
 ### Contras
 
-- Direcionamento do teste pode torná-lo superficial;
+- Direcionamento do teste pode torná-lo superficial.
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
 
@@ -132,19 +132,19 @@ Por ser o tipo mais direcionado de validação, exige cuidado para que não se t
 
 Acessar e avaliar repositórios públicos escritos e mantidos pelo candidato a fim de aferir sua abrangência de conhecimento.  
 
-Nesse formato o candidato na verdade não faz nada, dado que supostamente já está tudo feito em projetos nos quais atuou no passado e que deixou público em seu perfil em plataformas como o Github. Cabe, portanto, a um _tech lead_ ler o código e validar se o candidato tem o conhecimento necessário.  
+Nesse formato, o candidato na verdade não faz nada, dado que supostamente já está tudo feito em projetos nos quais atuou no passado e que deixou público em seu perfil em plataformas como o Github. Cabe, portanto, a um _tech lead_ ler o código e validar se o candidato tem o conhecimento necessário.  
 
-O resultado se assemelha ao do [desafio de código](#projeto-completo-compartilhado-com-repositório-git), afinal pode ser exatamente um projeto derivado de um desafio anterior. Caso seja necessário aferir mais alguma habilidade ou conhecimento, pode ser feito um teste direcionado para a o tópico específico. It also resembles in the disadvantage that the candidate can simply copy from any source or use a code generation tool.
+O resultado se assemelha ao do [desafio de código](#projeto-completo-compartilhado-com-repositório-git), afinal pode ser exatamente um projeto derivado de um desafio anterior. Caso seja necessário aferir mais alguma habilidade ou conhecimento, pode ser feito um teste direcionado para a o tópico específico. Acrescente-se às desvantagens o fato de que um candidato pode tão somente copiar o código de qualquer fonte ou usar um gerador de código.
 
 ### Prós
 
 - Avaliação sem demanda de esforço por parte do candidato;
 - Se necessário, permite que se faça apenas a avaliação de habilidade ou conhecimento específico;
-- Avaliação rápida;
+- Avaliação rápida.
 
 ### Contras
 
-- Possibilidade do candidato simplemente copiar de uma fonte qualquer;
+- Possibilidade do candidato simplemente copiar de uma fonte qualquer.
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
 
@@ -152,7 +152,7 @@ O resultado se assemelha ao do [desafio de código](#projeto-completo-compartilh
 
 Um desempenho ruim em um teste de validação, especialmente nos mais superficiais, não significa que o candidato possui habilidades ou conhecimentos insuficientes. Ademais, é importante saber quais requisitos são realmentes necessários para o exercício da função e quais são secundários. Nos dias de hoje, existem muitas formas de resolver problemas complexos, graças à infinidade de fontes de conhecimento disponíveis e ao conhecimento consolidado e compartilhado. Portanto, compõe o leque de habilidades importantes de um desenvolvedor de software saber fazer a pergunta certa a fim de encontrar a resposta de que precisa, tornando dispensável ter tudo na ponta da língua.  
 
-Ademais, aos recrutadores e techleads que participam dos processos seletivos, fica o convite para que, além de aplicar qualquer dos formatos de validação técnica, incluam também ao processo alguma devolutiva, o famoso _feedback_, nesse caso _feedback técnico_, a fim de que o candidato possa, se for o caso, conhecer as próprias falhas e também se preparar melhor para as próximas oportunidades que surgirem. Esse feedback não precisa ser detalhado e completo; pode ser apenas um resumo ou mesmo as notas feitas pelo entrevistador que o levou a concluir negativamente a respeito do candidato.
+Ademais, aos recrutadores e _tech leads_ que participam dos processos seletivos, fica o convite para que, além de aplicar qualquer dos formatos de validação técnica, incluam também ao processo alguma devolutiva, o famoso _feedback_, nesse caso _feedback técnico_, a fim de que o candidato possa, se for o caso, conhecer as próprias falhas e também se preparar melhor para as próximas oportunidades que surgirem. Esse feedback não precisa ser detalhado e completo; pode ser apenas um resumo ou mesmo as notas feitas pelo entrevistador que o levou a concluir negativamente a respeito do candidato.
 
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
 
@@ -173,4 +173,5 @@ Pessoalmente eu escolheria a [avaliação de repositórios públicos](#avaliaç�
 Na esteira das inovações tecnológicas, surgem as IAs linguísticas, com destaque para o ChatGPT, que sugerem código razoável a partir de uma descrição simples, e sugerem código completo caso a solicitação seja abrangente e bem feita. Inclusive, nada impede seu uso junto a qualquer dos tipos de validação técnica citados até aqui. Em vista disso, as validações técnicas precisam, mais do que nunca, considerar a existência e o uso dessas novas ferramentas, pois agora o [ChatGPT já possui treinamento suficiente para ser aprovado em recrutamento do Google](https://www.pcmag.com/news/chatgpt-passes-google-coding-interview-for-level-3-engineer-with-183k-salary).
 Ou seja, esse artigo envelhecerá muito rápido e as validações técnicas e processos que não se modernizarem, envelhecerão junto.
 
+Isso também levanta a questão: quais ferramentas fazem ou devem fazer parte da rotina diária de programadores, e quais devem ser consideradas durante uma validação técnica?  
 [voltar ao topo](#conteúdo-considerado-nesse-artigo)
